@@ -18,7 +18,7 @@ jobs:
         run: |
           set -euo pipefail
           archive=Weston-Zloty-BI-Portfolio.zip
-          echo '482bb07b9bbe8b6fd7833cd178ef556047d69e22f0921602a8cec01e8445f6fb  Weston-Zloty-BI-Portfolio.zip' | sha256sum --check --strict
+          echo 'fb6a3b057aca00111b3d4a2b2b116430138309282d068829bfd144b7438e176d  Weston-Zloty-BI-Portfolio.zip' | sha256sum --check --strict
           unzip -q "$archive" -d "$RUNNER_TEMP/verified-portfolio"
           source="$RUNNER_TEMP/verified-portfolio/bi-portfolio"
           cp -a "$source"/. .
