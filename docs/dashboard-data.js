@@ -4647,7 +4647,7 @@ window.PORTFOLIO = {
           },
           {
             "label": "Weekend gap",
-            "value": 0.002991711764610307,
+            "value": 0.002991711765,
             "unit": "pp",
             "note": "Weekend minus weekday, adjusted for borough and month"
           }
@@ -4817,8 +4817,8 @@ window.PORTFOLIO = {
           },
           "weekend_comparison": {
             "represented": 76973,
-            "adjusted_gap": 0.002991711764610307,
-            "crude_gap": 0.0023818203129610804
+            "adjusted_gap": 0.002991711765,
+            "crude_gap": 0.002381820313
           },
           "boroughs": [
             {
@@ -4891,7 +4891,7 @@ window.PORTFOLIO = {
           },
           {
             "label": "Weekend gap",
-            "value": -0.004027069442825425,
+            "value": -0.004027069443,
             "unit": "pp",
             "note": "Weekend minus weekday, adjusted for borough and month"
           }
@@ -5021,8 +5021,8 @@ window.PORTFOLIO = {
           },
           "weekend_comparison": {
             "represented": 8396,
-            "adjusted_gap": -0.004027069442825425,
-            "crude_gap": 0.00815471296136816
+            "adjusted_gap": -0.004027069443,
+            "crude_gap": 0.008154712961
           },
           "boroughs": [
             {
@@ -5067,7 +5067,7 @@ window.PORTFOLIO = {
           },
           {
             "label": "Weekend gap",
-            "value": 0.0024164082616181595,
+            "value": 0.002416408262,
             "unit": "pp",
             "note": "Weekend minus weekday, adjusted for borough and month"
           }
@@ -5197,8 +5197,8 @@ window.PORTFOLIO = {
           },
           "weekend_comparison": {
             "represented": 17066,
-            "adjusted_gap": 0.0024164082616181595,
-            "crude_gap": 0.0026986480505496457
+            "adjusted_gap": 0.002416408262,
+            "crude_gap": 0.002698648051
           },
           "boroughs": [
             {
@@ -5243,7 +5243,7 @@ window.PORTFOLIO = {
           },
           {
             "label": "Weekend gap",
-            "value": -0.00860586448113161,
+            "value": -0.008605864481,
             "unit": "pp",
             "note": "Weekend minus weekday, adjusted for borough and month"
           }
@@ -5373,8 +5373,8 @@ window.PORTFOLIO = {
           },
           "weekend_comparison": {
             "represented": 11007,
-            "adjusted_gap": -0.00860586448113161,
-            "crude_gap": -0.00790189085016324
+            "adjusted_gap": -0.008605864481,
+            "crude_gap": -0.00790189085
           },
           "boroughs": [
             {
@@ -5419,7 +5419,7 @@ window.PORTFOLIO = {
           },
           {
             "label": "Weekend gap",
-            "value": 0.01290168098629059,
+            "value": 0.012901680986,
             "unit": "pp",
             "note": "Weekend minus weekday, adjusted for borough and month"
           }
@@ -5549,8 +5549,8 @@ window.PORTFOLIO = {
           },
           "weekend_comparison": {
             "represented": 32159,
-            "adjusted_gap": 0.01290168098629059,
-            "crude_gap": 0.007196896528678942
+            "adjusted_gap": 0.012901680986,
+            "crude_gap": 0.007196896529
           },
           "boroughs": [
             {
@@ -5595,7 +5595,7 @@ window.PORTFOLIO = {
           },
           {
             "label": "Weekend gap",
-            "value": -0.011662855265160876,
+            "value": -0.011662855265,
             "unit": "pp",
             "note": "Weekend minus weekday, adjusted for borough and month"
           }
@@ -5725,8 +5725,8 @@ window.PORTFOLIO = {
           },
           "weekend_comparison": {
             "represented": 8345,
-            "adjusted_gap": -0.011662855265160876,
-            "crude_gap": -0.028007188250595894
+            "adjusted_gap": -0.011662855265,
+            "crude_gap": -0.028007188251
           },
           "boroughs": [
             {

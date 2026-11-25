@@ -38,8 +38,8 @@ def build():
         index = {(r["intake_year"], r["intake_month"].month): r["rate7"] for r in monthly}
         strata_where = where + (" and " if where else "where ")
         comparison = rows(con, f"""select sum(weight) as represented,
-              sum(weight*(rate_weekend-rate_weekday))/sum(weight) as adjusted_gap,
-              sum(n_weekend*rate_weekend)/sum(n_weekend)-sum(n_weekday*rate_weekday)/sum(n_weekday) as crude_gap
+              round(sum(weight*(rate_weekend-rate_weekday))/sum(weight), 12) as adjusted_gap,
+              round(sum(n_weekend*rate_weekend)/sum(n_weekend)-sum(n_weekday*rate_weekday)/sum(n_weekday), 12) as crude_gap
               from strata {strata_where} n_weekend>=5 and n_weekday>=5""", params)[0]
         leaders = rows(con, f"""select title_borough, year24, year25, unresolved_25, volume_25
               from (select borough as title_borough, max(closure_7d) filter(where intake_year=2024) as year24,
