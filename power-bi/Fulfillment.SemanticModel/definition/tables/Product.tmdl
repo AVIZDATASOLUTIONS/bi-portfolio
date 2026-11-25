@@ -1,0 +1,30 @@
+table 'Product'
+
+	column 'SKU'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: SKU
+
+	column 'Category'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Category
+
+	column 'Unit Cost'
+		dataType: decimal
+		summarizeBy: none
+		sourceColumn: Unit Cost
+
+	partition 'Product' = m
+		mode: import
+		source =
+			let
+				Payload = Text.Combine({
+						"bZRLbmMhEEXnvYos4HWJoj7AOFJPMnS8AA9e0pYiPyt2D7L7xnLxMXhaB25xLwW7t/3yeriun9v3z7I/Ha8vr9vl+mv3tv/tHC5/Dpfrelq/L4sIeLK67+roFJwzQD3wHpIY4A5wBEGrS1fP66V00AehAFg6hAeQwJUOsQeU2o70cNi8w98Buh4wQgwGetuJQUwJe9uqENjqvWsvEMr63nQUwKLfm9bc10zjg2lU4NIgLLvDx3r9ebn8O5+/jutlIYVkGWKcKDoI0WiaaBDQdKfePVNWU/Y4KyNV397PmGqKniZ6u3jLxvNEU4RQjiUTjR64UJ0thdZ3DisBWxp+zkqwHWrOih04Eyb3JGcGb2HRk7CIQGw+aQ4rDykX7RzW3+3cnSqAU2M8MPL1/ZAMLI9TZTqw26sQG34KI0QBZwFTHFUzsyGlNDBmSDYQ7CbRBFogjqJUB5z9uDF/KmrJMU2qAdiujMdwPNbIeQwHPUQLlcdw8hioXQZP2TisU8DxyVHRxovT8r5tX8fT5/3uLU9xtZzvx9sRBGs1tEkQX6v5y0gmLNSE8xujIsy1LFy9ibTFeX7J5kG0ljlBKv1CW5ynWexGJHblFo10Bl17VtoM3n798rsodnHUb0ObwyT1ySv1a8vnrdxZuRn8Dw=="
+				}, ""),
+				Source = Binary.Decompress(Binary.FromText(Payload, BinaryEncoding.Base64), Compression.Deflate),
+				Rows = Csv.Document(Source, [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				Headers = Table.PromoteHeaders(Rows, [PromoteAllScalars=true]),
+				Typed = Table.TransformColumnTypes(Headers, {{"SKU", type text}, {"Category", type text}, {"Unit Cost", Currency.Type}}, "en-US")
+			in
+				Typed

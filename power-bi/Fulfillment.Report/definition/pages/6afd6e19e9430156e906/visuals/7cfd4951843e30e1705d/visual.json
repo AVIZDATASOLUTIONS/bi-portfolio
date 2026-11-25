@@ -1,0 +1,80 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "7cfd4951843e30e1705d",
+  "position": {
+    "x": 27,
+    "y": 100,
+    "width": 1225,
+    "height": 102,
+    "z": 1127,
+    "tabOrder": 1127
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "drillFilterOtherVisuals": true,
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Order Lines"
+                    }
+                  },
+                  "Property": "Line OTIF"
+                }
+              },
+              "queryRef": "Order Lines.Line OTIF",
+              "nativeQueryRef": "Line OTIF"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Order Lines"
+                    }
+                  },
+                  "Property": "On Time Unit Fill"
+                }
+              },
+              "queryRef": "Order Lines.On Time Unit Fill",
+              "nativeQueryRef": "On Time Unit Fill"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Order Lines"
+                    }
+                  },
+                  "Property": "Missed Promise Units"
+                }
+              },
+              "queryRef": "Order Lines.Missed Promise Units",
+              "nativeQueryRef": "Missed Promise Units"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Inventory"
+                    }
+                  },
+                  "Property": "Ending Inventory Value"
+                }
+              },
+              "queryRef": "Inventory.Ending Inventory Value",
+              "nativeQueryRef": "Ending Inventory Value"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

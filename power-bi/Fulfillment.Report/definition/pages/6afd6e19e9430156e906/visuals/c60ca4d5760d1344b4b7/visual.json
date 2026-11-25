@@ -1,0 +1,147 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "c60ca4d5760d1344b4b7",
+  "position": {
+    "x": 27,
+    "y": 508,
+    "width": 1225,
+    "height": 255,
+    "z": 1535,
+    "tabOrder": 1535
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "drillFilterOtherVisuals": true,
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Warehouse"
+                    }
+                  },
+                  "Property": "Warehouse"
+                }
+              },
+              "queryRef": "Warehouse.Warehouse",
+              "nativeQueryRef": "Warehouse"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Product"
+                    }
+                  },
+                  "Property": "Category"
+                }
+              },
+              "queryRef": "Product.Category",
+              "nativeQueryRef": "Category"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Product"
+                    }
+                  },
+                  "Property": "SKU"
+                }
+              },
+              "queryRef": "Product.SKU",
+              "nativeQueryRef": "SKU"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Order Lines"
+                    }
+                  },
+                  "Property": "Missed Promise Units"
+                }
+              },
+              "queryRef": "Order Lines.Missed Promise Units",
+              "nativeQueryRef": "Missed Promise Units"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Order Lines"
+                    }
+                  },
+                  "Property": "Line OTIF"
+                }
+              },
+              "queryRef": "Order Lines.Line OTIF",
+              "nativeQueryRef": "Line OTIF"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Inventory"
+                    }
+                  },
+                  "Property": "Ending Stock Units"
+                }
+              },
+              "queryRef": "Inventory.Ending Stock Units",
+              "nativeQueryRef": "Ending Stock Units"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Order Lines"
+                  }
+                },
+                "Property": "Missed Promise Units"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'SKU replenishment review'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

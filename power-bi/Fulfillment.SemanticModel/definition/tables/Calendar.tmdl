@@ -1,0 +1,28 @@
+table 'Calendar'
+
+	column 'Date'
+		dataType: dateTime
+		summarizeBy: none
+		sourceColumn: Date
+		formatString: yyyy-MM-dd
+		isKey
+
+	column 'Week Beginning'
+		dataType: dateTime
+		summarizeBy: none
+		sourceColumn: Week Beginning
+		formatString: yyyy-MM-dd
+
+	partition 'Calendar' = m
+		mode: import
+		source =
+			let
+				Payload = Text.Combine({
+						"bdU7agNBEITh3KfwASSY7p5HT2p8B8cOFiEMinx/7DXeLUn7Z8WXVVPQ75/fy+ljWb5e35bL9Xa73i4vXrydS569nRSlHXWgJuokjYJqR53nsukapY4aqBW1oXbUgZrSlE5SK6iG6qiBWlHVzXRJ66gDNVEnqRdUQ1U3d2mgVtSG2lEHaqKqm89doxzUyv0m79VRA7WiNtT/bn9ROlATdZJum3xSQ3XUOClKK2pD7agDNVEnqaubF6mhOmqgVtSG2lHVzYc0USdpFFQ7qu1LfVJH3RqvUVpRG2pHHaiJOkn3pa5RaqiOGqgVtaF2VHUzXdISdZJ6QTVURw1UdfMqbagddaAm6iSNclTXJn3/pmt01ECtqA21ow7UlKZ0ku6bfFRDddRArajqtn3TNXbUgZqok9QLqqGq2/ZN1xioFbWhdtSBmqjqtn9T1yYf1Z60/+7ifqm/+gM="
+				}, ""),
+				Source = Binary.Decompress(Binary.FromText(Payload, BinaryEncoding.Base64), Compression.Deflate),
+				Rows = Csv.Document(Source, [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				Headers = Table.PromoteHeaders(Rows, [PromoteAllScalars=true]),
+				Typed = Table.TransformColumnTypes(Headers, {{"Date", type date}, {"Week Beginning", type date}}, "en-US")
+			in
+				Typed

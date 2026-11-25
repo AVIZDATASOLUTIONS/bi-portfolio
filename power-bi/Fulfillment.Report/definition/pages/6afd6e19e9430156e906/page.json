@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "6afd6e19e9430156e906",
+  "displayName": "Fulfillment performance",
+  "displayOption": "FitToPage",
+  "width": 1280,
+  "height": 800
+}

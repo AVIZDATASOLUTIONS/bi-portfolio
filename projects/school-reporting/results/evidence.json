@@ -1,0 +1,244 @@
+{
+  "seed": 36481,
+  "students": 1200,
+  "instruction_days": 60,
+  "controls": [
+    {
+      "control": "The legacy extract has exactly one row per student and scheduled day",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Student identifiers map one-to-one",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Source event IDs are unique",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Known rows plus unmapped or out-of-calendar rows exhaust the new source",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "A student-day appears once in the reconciled fact",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Baseline exactly equals matched plus mismatched, missing and unknown rows",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "The fixture exercises all three material discrepancy cases",
+      "exceptions": 0,
+      "status": "PASS"
+    }
+  ],
+  "results": {
+    "All campuses": {
+      "totals": {
+        "baseline": 72000,
+        "matches": 71454,
+        "unknown": 230,
+        "missing": 197,
+        "mismatched": 119,
+        "conflicting": 199,
+        "baseline_rate": 0.9185416666666667,
+        "converted_rate": 0.9231693515711232
+      },
+      "campuses": [
+        {
+          "campus": "Cedar",
+          "baseline": 18000,
+          "matches": 18000,
+          "unknown_codes": 0,
+          "missing_records": 0,
+          "status_mismatches": 0,
+          "unexpected_records": 0,
+          "conflicting_edits": 52,
+          "baseline_rate": 0.9171111111111111,
+          "converted_rate": 0.9171111111111111,
+          "match_rate": 1.0,
+          "attendance_delta": 0.0,
+          "campus_pass": true
+        },
+        {
+          "campus": "Harbor",
+          "baseline": 18000,
+          "matches": 17770,
+          "unknown_codes": 230,
+          "missing_records": 0,
+          "status_mismatches": 0,
+          "unexpected_records": 0,
+          "conflicting_edits": 47,
+          "baseline_rate": 0.918,
+          "converted_rate": 0.9298818232976928,
+          "match_rate": 0.9872222222222222,
+          "attendance_delta": 0.011881823297692717,
+          "campus_pass": false
+        },
+        {
+          "campus": "Lakeside",
+          "baseline": 18000,
+          "matches": 17881,
+          "unknown_codes": 0,
+          "missing_records": 0,
+          "status_mismatches": 119,
+          "unexpected_records": 0,
+          "conflicting_edits": 57,
+          "baseline_rate": 0.9176666666666666,
+          "converted_rate": 0.9242777777777778,
+          "match_rate": 0.9933888888888889,
+          "attendance_delta": 0.006611111111111123,
+          "campus_pass": false
+        },
+        {
+          "campus": "River",
+          "baseline": 18000,
+          "matches": 17803,
+          "unknown_codes": 0,
+          "missing_records": 197,
+          "status_mismatches": 0,
+          "unexpected_records": 0,
+          "conflicting_edits": 43,
+          "baseline_rate": 0.9213888888888889,
+          "converted_rate": 0.9214739088917598,
+          "match_rate": 0.9890555555555556,
+          "attendance_delta": 8.502000287091693e-05,
+          "campus_pass": false
+        }
+      ],
+      "district_orphan_events": 8,
+      "may_release": false
+    },
+    "Cedar": {
+      "totals": {
+        "baseline": 18000,
+        "matches": 18000,
+        "unknown": 0,
+        "missing": 0,
+        "mismatched": 0,
+        "conflicting": 52,
+        "baseline_rate": 0.9171111111111111,
+        "converted_rate": 0.9171111111111111
+      },
+      "campuses": [
+        {
+          "campus": "Cedar",
+          "baseline": 18000,
+          "matches": 18000,
+          "unknown_codes": 0,
+          "missing_records": 0,
+          "status_mismatches": 0,
+          "unexpected_records": 0,
+          "conflicting_edits": 52,
+          "baseline_rate": 0.9171111111111111,
+          "converted_rate": 0.9171111111111111,
+          "match_rate": 1.0,
+          "attendance_delta": 0.0,
+          "campus_pass": true
+        }
+      ],
+      "district_orphan_events": null,
+      "may_release": true
+    },
+    "Harbor": {
+      "totals": {
+        "baseline": 18000,
+        "matches": 17770,
+        "unknown": 230,
+        "missing": 0,
+        "mismatched": 0,
+        "conflicting": 47,
+        "baseline_rate": 0.918,
+        "converted_rate": 0.9298818232976928
+      },
+      "campuses": [
+        {
+          "campus": "Harbor",
+          "baseline": 18000,
+          "matches": 17770,
+          "unknown_codes": 230,
+          "missing_records": 0,
+          "status_mismatches": 0,
+          "unexpected_records": 0,
+          "conflicting_edits": 47,
+          "baseline_rate": 0.918,
+          "converted_rate": 0.9298818232976928,
+          "match_rate": 0.9872222222222222,
+          "attendance_delta": 0.011881823297692717,
+          "campus_pass": false
+        }
+      ],
+      "district_orphan_events": null,
+      "may_release": false
+    },
+    "Lakeside": {
+      "totals": {
+        "baseline": 18000,
+        "matches": 17881,
+        "unknown": 0,
+        "missing": 0,
+        "mismatched": 119,
+        "conflicting": 57,
+        "baseline_rate": 0.9176666666666666,
+        "converted_rate": 0.9242777777777778
+      },
+      "campuses": [
+        {
+          "campus": "Lakeside",
+          "baseline": 18000,
+          "matches": 17881,
+          "unknown_codes": 0,
+          "missing_records": 0,
+          "status_mismatches": 119,
+          "unexpected_records": 0,
+          "conflicting_edits": 57,
+          "baseline_rate": 0.9176666666666666,
+          "converted_rate": 0.9242777777777778,
+          "match_rate": 0.9933888888888889,
+          "attendance_delta": 0.006611111111111123,
+          "campus_pass": false
+        }
+      ],
+      "district_orphan_events": null,
+      "may_release": false
+    },
+    "River": {
+      "totals": {
+        "baseline": 18000,
+        "matches": 17803,
+        "unknown": 0,
+        "missing": 197,
+        "mismatched": 0,
+        "conflicting": 43,
+        "baseline_rate": 0.9213888888888889,
+        "converted_rate": 0.9214739088917598
+      },
+      "campuses": [
+        {
+          "campus": "River",
+          "baseline": 18000,
+          "matches": 17803,
+          "unknown_codes": 0,
+          "missing_records": 197,
+          "status_mismatches": 0,
+          "unexpected_records": 0,
+          "conflicting_edits": 43,
+          "baseline_rate": 0.9213888888888889,
+          "converted_rate": 0.9214739088917598,
+          "match_rate": 0.9890555555555556,
+          "attendance_delta": 8.502000287091693e-05,
+          "campus_pass": false
+        }
+      ],
+      "district_orphan_events": null,
+      "may_release": false
+    }
+  }
+}

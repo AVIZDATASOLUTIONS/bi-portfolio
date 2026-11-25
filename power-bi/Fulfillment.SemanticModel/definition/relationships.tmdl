@@ -1,0 +1,23 @@
+relationship 95d87661-00f2-584a-bf81-060314a0adb1
+	fromColumn: 'Order Lines'.'Promise Date'
+	toColumn: 'Calendar'.'Date'
+
+relationship 740e0095-6fbe-51d7-99aa-98df5703bafe
+	fromColumn: 'Order Lines'.'Warehouse'
+	toColumn: 'Warehouse'.'Warehouse'
+
+relationship 809d7203-5996-5fe6-9a98-364bff8b04a1
+	fromColumn: 'Order Lines'.'SKU'
+	toColumn: 'Product'.'SKU'
+
+relationship 154c9a10-a04a-5513-a343-712e95d6637d
+	fromColumn: 'Inventory'.'Inventory Date'
+	toColumn: 'Calendar'.'Date'
+
+relationship fb13878d-051e-5b5e-898a-e25e2be4bdf1
+	fromColumn: 'Inventory'.'Warehouse'
+	toColumn: 'Warehouse'.'Warehouse'
+
+relationship 3a02a562-5f3d-5427-9703-2ceca6ae5637
+	fromColumn: 'Inventory'.'SKU'
+	toColumn: 'Product'.'SKU'

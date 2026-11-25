@@ -1,0 +1,49 @@
+agency,bureau,naics,net,gross_positive,deobligation,funded_awards,active_years,supplier_count,top_supplier_share,hhi,identity_coverage,eligible,score
+Department of Health and Human Services,National Institutes of Health,541512,2674789155.27,2828280182.51,-153491027.24,544,3,202,0.15144700214597126,0.04891394564846555,1.0,true,94.7
+Department of Health and Human Services,National Institutes of Health,541511,899110108.37,968556704.16,-69446595.79,747,3,196,0.10349829296462158,0.049742756573713375,1.0,true,90.5
+General Services Administration,Federal Acquisition Service,541512,17244104923.09,18167658644.90,-923553721.81,386,3,163,0.2187453668178426,0.09940048821922115,1.0,true,88.3
+General Services Administration,Federal Acquisition Service,541511,2187664243.84,2279973465.60,-92309221.76,323,3,120,0.128733296149462,0.05199073259151268,1.0,true,87.3
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,541512,5084490505.36,5382590674.33,-298100168.97,190,3,87,0.13713765497352856,0.06144574278734683,1.0,true,86.4
+Department of the Treasury,Internal Revenue Service,541511,841590709.75,864247907.85,-22657198.10,247,3,94,0.10861406967535536,0.04568207859955308,1.0,true,85.8
+Department of the Treasury,Internal Revenue Service,541512,3935841108.89,4181302782.80,-245461673.91,396,3,133,0.2427599236117199,0.10921086510525665,1.0,true,85.3
+Department of Health and Human Services,Centers for Disease Control and Prevention,541512,1130648901.04,1219303500.72,-88654599.68,215,3,82,0.18697015250541105,0.08011633474798602,1.0,true,80.2
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,541511,2354195482.27,2374531684.32,-20336202.05,141,3,57,0.21826290509508142,0.09993427025400452,1.0,true,74.2
+Department of Health and Human Services,Food and Drug Administration,541511,672199002.55,687989865.82,-15790863.27,238,3,41,0.21908485394672264,0.12778959823625824,1.0,true,69.5
+Department of Health and Human Services,Office of the Assistant Secretary for Administration,541512,350096170.51,363588825.99,-13492655.48,103,3,57,0.19687230242870205,0.07326028186657754,1.0,true,69.1
+Department of Health and Human Services,Food and Drug Administration,541512,650410341.12,668947688.13,-18537347.01,184,3,69,0.2896881244207851,0.16054924733442466,1.0,true,63.3
+Department of Health and Human Services,Office of the Assistant Secretary for Administration,541511,185638581.57,191664136.02,-6025554.45,86,3,58,0.20032002829154014,0.08447105785779337,1.0,true,61.7
+Department of Health and Human Services,Centers for Disease Control and Prevention,541511,179304236.17,211303509.91,-31999273.74,110,3,74,0.2816676537240204,0.12077593639112483,1.0,true,56.3
+Department of the Treasury,Bureau of the Fiscal Service,541512,176612045.48,189983376.42,-13371330.94,71,3,49,0.2103605245526776,0.09621604178639033,1.0,true,55.3
+Department of the Treasury,Bureau of the Fiscal Service,541511,184858584.43,190259923.84,-5401339.41,154,3,54,0.46865074546641844,0.2464051074891632,1.0,true,50.2
+Department of Health and Human Services,Health Resources and Services Administration,541511,259517690.54,265381877.59,-5864187.05,76,3,16,0.6804784337195631,0.49007159370145736,1.0,true,42.2
+Department of the Treasury,Bureau of Engraving and Printing,541512,176128392.39,183238232.61,-7109840.22,51,3,21,0.40106435951287034,0.19948363094488616,1.0,true,40.8
+Department of Health and Human Services,Health Resources and Services Administration,541512,119449942.36,124561753.33,-5111810.97,35,3,18,0.18694760259441187,0.11144775731277785,1.0,true,40.6
+General Services Administration,Office of Administrative Services,541511,122277385.11,125510831.29,-3233446.18,45,3,26,0.28725413185015325,0.14172944845196456,1.0,true,40.2
+General Services Administration,Office of Administrative Services,541512,245686394.44,252410513.69,-6724119.25,32,3,24,0.3099859398332973,0.20003012604736237,1.0,true,39.8
+Department of Health and Human Services,Indian Health Service,541512,24937655.78,29949401.00,-5011745.22,63,3,34,0.3492858815440082,0.1770658006213503,1.0,true,35.0
+Department of the Treasury,Office of the Comptroller of the Currency,541511,127092669.06,132654242.52,-5561573.46,37,3,13,0.3297902927107981,0.22251087473032843,1.0,true,34.5
+Department of Health and Human Services,Administration for Children and Families,541511,44420479.15,47874145.76,-3453666.61,15,3,12,0.20261269096324028,0.1186862407034892,1.0,true,30.9
+Department of Health and Human Services,Office of Assistant Secretary for Preparedness and Response,541512,38357667.60,40964368.97,-2606701.37,48,3,16,0.4097941272400369,0.22307728307413024,1.0,true,29.2
+Department of the Treasury,Office of the Comptroller of the Currency,541512,43210236.45,52273828.22,-9063591.77,29,3,19,0.35195904693585883,0.1829419052611584,1.0,true,27.5
+Department of Health and Human Services,Indian Health Service,541511,16051067.15,17571053.55,-1519986.40,97,3,35,0.7455623524634923,0.561909612312575,1.0,true,23.8
+Department of Health and Human Services,Agency for Healthcare Research and Quality,541511,53986721.68,54134625.00,-147903.32,16,3,6,0.3808845632531859,0.25521010731560917,1.0,true,21.9
+Department of the Treasury,Bureau of Engraving and Printing,541511,21379604.85,21416222.23,-36617.38,18,3,13,0.43957646492912766,0.26379738731113,1.0,true,16.6
+Department of the Treasury,United States Mint,541511,16249107.92,16871400.87,-622292.95,31,3,3,0.9970802661628655,0.9941766771870266,1.0,true,11.9
+Department of Health and Human Services,Office of Assistant Secretary for Preparedness and Response,541511,17482715.60,17621136.85,-138421.25,14,3,9,0.39900751522737304,0.30025782534207063,1.0,true,10.3
+General Services Administration,Public Buildings Service,541512,11283236.61,11743862.16,-460625.55,10,3,7,0.4324338033613297,0.2807949664590775,1.0,true,6.9
+Department of Health and Human Services,Administration for Children and Families,541512,61341151.72,61781689.86,-440538.14,9,3,7,0.4436930704245389,0.3022710952406023,1.0,false,
+Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,541512,48206019.83,49966537.02,-1760517.19,8,3,7,0.39365769919429966,0.24202582717132956,1.0,false,
+Department of Health and Human Services,Office of the Assistant Secretary for Financial Resources,541512,43006272.31,45969402.45,-2963130.14,44,2,37,0.1659100371882254,0.06592582389648187,1.0,false,
+Department of Health and Human Services,Office of the Assistant Secretary for Financial Resources,541511,22880320.45,22880320.45,0.00,38,2,34,0.1637276981406963,0.07678627201439366,1.0,false,
+Department of Health and Human Services,Agency for Healthcare Research and Quality,541512,20346253.24,20506360.00,-160106.76,7,3,7,0.3092235774657228,0.18474733316160155,1.0,false,
+Department of the Treasury,Departmental Offices,541511,8571523.94,10207386.47,-1635862.53,6,3,4,0.475551563984233,0.34840723541993046,1.0,false,
+Department of the Treasury,Office of Inspector General,541512,4056407.02,4349101.05,-292694.03,4,3,4,0.6726564033273037,0.5495286535410842,1.0,false,
+General Services Administration,Public Buildings Service,541511,4033477.38,4955796.95,-922319.57,9,3,10,0.3906278666239544,0.2981398908618905,1.0,false,
+Department of the Treasury,Departmental Offices,541512,3093353.66,3093353.67,-0.01,6,3,3,0.6157002862204244,0.4700609445012246,1.0,false,
+Department of Health and Human Services,Substance Abuse and Mental Health Services Administration,541511,2843556.60,2843556.60,0.00,3,2,3,0.5453542229474173,0.49448625820482484,1.0,false,
+General Services Administration,Office of Inspector General,541511,541382.90,541382.90,0.00,4,3,3,0.7052640561790925,0.5472635205742503,1.0,false,
+Department of the Treasury,Office of Inspector General,541511,433036.80,433036.80,0.00,1,1,1,1.0,1.0,1.0,false,
+Department of Health and Human Services,Office of the Inspector General,541511,127335.45,411898.00,-284562.55,2,2,2,0.5881310421512121,0.5155341611813175,1.0,false,
+Department of the Treasury,United States Mint,541512,13970.00,263500.00,-249530.00,1,2,1,1.0,1.0,1.0,false,
+Department of Health and Human Services,Office of the Inspector General,541512,0.00,0.00,0.00,0,0,,,,,false,
+General Services Administration,Technology Transformation Service,541511,-1014.72,0.00,-1014.72,0,0,,,,,false,

@@ -1,0 +1,33 @@
+agency,bureau,naics,balanced_score,size_weighted_score,diversity_weighted_score
+Department of Health and Human Services,National Institutes of Health,541512,94.7,93.4,95.6
+Department of Health and Human Services,National Institutes of Health,541511,90.5,87.0,92.2
+General Services Administration,Federal Acquisition Service,541512,88.3,93.0,82.2
+General Services Administration,Federal Acquisition Service,541511,87.3,86.3,88.6
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,541512,86.4,88.9,86.3
+Department of the Treasury,Internal Revenue Service,541511,85.8,81.6,91.1
+Department of the Treasury,Internal Revenue Service,541512,85.3,89.5,78.3
+Department of Health and Human Services,Centers for Disease Control and Prevention,541512,80.2,80.3,80.5
+Department of Health and Human Services,Centers for Medicare and Medicaid Services,541511,74.2,78.1,71.7
+Department of Health and Human Services,Food and Drug Administration,541511,69.5,71.9,63.9
+Department of Health and Human Services,Office of the Assistant Secretary for Administration,541512,69.1,66.6,74.4
+Department of Health and Human Services,Food and Drug Administration,541512,63.3,66.4,57.5
+Department of Health and Human Services,Office of the Assistant Secretary for Administration,541511,61.7,58.6,67.5
+Department of Health and Human Services,Centers for Disease Control and Prevention,541511,56.3,54.7,56.6
+Department of the Treasury,Bureau of the Fiscal Service,541512,55.3,51.1,62.3
+Department of the Treasury,Bureau of the Fiscal Service,541511,50.2,53.6,41.6
+Department of Health and Human Services,Health Resources and Services Administration,541511,42.2,50.8,30.2
+Department of the Treasury,Bureau of Engraving and Printing,541512,40.8,41.9,39.5
+Department of Health and Human Services,Health Resources and Services Administration,541512,40.6,36.7,48.3
+General Services Administration,Office of Administrative Services,541511,40.2,38.4,43.6
+General Services Administration,Office of Administrative Services,541512,39.8,45.3,37.0
+Department of Health and Human Services,Indian Health Service,541512,35.0,30.0,38.8
+Department of the Treasury,Office of the Comptroller of the Currency,541511,34.5,36.4,33.1
+Department of Health and Human Services,Administration for Children and Families,541511,30.9,27.2,40.6
+Department of Health and Human Services,Office of Assistant Secretary for Preparedness and Response,541512,29.2,27.5,29.2
+Department of the Treasury,Office of the Comptroller of the Currency,541512,27.5,25.5,32.0
+Department of Health and Human Services,Indian Health Service,541511,23.8,21.3,18.8
+Department of Health and Human Services,Agency for Healthcare Research and Quality,541511,21.9,24.2,21.4
+Department of the Treasury,Bureau of Engraving and Printing,541511,16.6,16.1,17.3
+Department of the Treasury,United States Mint,541511,11.9,12.2,9.1
+Department of Health and Human Services,Office of Assistant Secretary for Preparedness and Response,541511,10.3,10.6,10.9
+General Services Administration,Public Buildings Service,541512,6.9,5.0,10.0

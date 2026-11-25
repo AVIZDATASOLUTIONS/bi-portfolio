@@ -1,0 +1,641 @@
+{
+  "seed": 50918,
+  "start": "2025-08-25",
+  "cutoff": "2025-12-28",
+  "controls": [
+    {
+      "control": "Order-line and shipment IDs are unique",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Every shipment has an order line, positive units and valid event dates",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Order quantities reconcile with shipped, on-time and service deficit",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "The model contains exactly one inventory row per expected day, site and SKU",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Stock closes to opening plus receipts minus shipments",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Daily inventory opening agrees to previous close",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Inventory shipments reconcile to actual outbound lines by site, SKU and day",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Pending observation rows remain outside the OTIF denominator",
+      "exceptions": 0,
+      "status": "PASS"
+    }
+  ],
+  "source_counts": {
+    "raw_order": 11361,
+    "raw_shipment": 12310,
+    "raw_inventory": 32256
+  },
+  "results": {
+    "All warehouses": {
+      "totals": {
+        "matured_lines": 11218,
+        "otif": 0.8394544482082368,
+        "unit_fill": 0.8307374678116457,
+        "missed_units": 14921,
+        "ending_value": 486809.92,
+        "open_lines": 143
+      },
+      "top_skus": [
+        {
+          "site": "West",
+          "sku": "SKU-011",
+          "matured_lines": 86,
+          "ordered_units": 995,
+          "on_time_units": 109,
+          "missed_units": 886,
+          "otif": 0.10465116279069768,
+          "category": "Fasteners",
+          "ending_stock": 0,
+          "unit_cost": 94.5,
+          "missed_order_cost_basis": 83727.0
+        },
+        {
+          "site": "West",
+          "sku": "SKU-006",
+          "matured_lines": 67,
+          "ordered_units": 951,
+          "on_time_units": 233,
+          "missed_units": 718,
+          "otif": 0.19402985074626866,
+          "category": "Fasteners",
+          "ending_stock": 0,
+          "unit_cost": 127.1,
+          "missed_order_cost_basis": 91257.8
+        },
+        {
+          "site": "West",
+          "sku": "SKU-001",
+          "matured_lines": 66,
+          "ordered_units": 904,
+          "on_time_units": 195,
+          "missed_units": 709,
+          "otif": 0.25757575757575757,
+          "category": "Fasteners",
+          "ending_stock": 0,
+          "unit_cost": 55.23,
+          "missed_order_cost_basis": 39158.07
+        },
+        {
+          "site": "West",
+          "sku": "SKU-016",
+          "matured_lines": 67,
+          "ordered_units": 925,
+          "on_time_units": 217,
+          "missed_units": 708,
+          "otif": 0.2835820895522388,
+          "category": "Fasteners",
+          "ending_stock": 7,
+          "unit_cost": 116.44,
+          "missed_order_cost_basis": 82439.52
+        },
+        {
+          "site": "West",
+          "sku": "SKU-005",
+          "matured_lines": 54,
+          "ordered_units": 729,
+          "on_time_units": 218,
+          "missed_units": 511,
+          "otif": 0.2962962962962963,
+          "category": "Fasteners",
+          "ending_stock": 0,
+          "unit_cost": 22.53,
+          "missed_order_cost_basis": 11512.83
+        }
+      ],
+      "site_category": [
+        {
+          "site": "West",
+          "category": "Fasteners",
+          "missed_units": 6782
+        },
+        {
+          "site": "West",
+          "category": "Safety supplies",
+          "missed_units": 964
+        },
+        {
+          "site": "West",
+          "category": "Tooling",
+          "missed_units": 758
+        },
+        {
+          "site": "West",
+          "category": "Shop supplies",
+          "missed_units": 749
+        },
+        {
+          "site": "Central",
+          "category": "Fasteners",
+          "missed_units": 570
+        },
+        {
+          "site": "Southeast",
+          "category": "Tooling",
+          "missed_units": 562
+        }
+      ],
+      "site_service": [
+        {
+          "site": "West",
+          "matured_lines": 2754,
+          "complete_on_time": 1887,
+          "otif": 0.6851851851851852,
+          "ordered_units": 24879,
+          "on_time_units": 15626,
+          "missed_units": 9253
+        },
+        {
+          "site": "Southeast",
+          "matured_lines": 2785,
+          "complete_on_time": 2449,
+          "otif": 0.8793536804308797,
+          "ordered_units": 21042,
+          "on_time_units": 19009,
+          "missed_units": 2033
+        },
+        {
+          "site": "Central",
+          "matured_lines": 2826,
+          "complete_on_time": 2516,
+          "otif": 0.8903043170559094,
+          "ordered_units": 20955,
+          "on_time_units": 19072,
+          "missed_units": 1883
+        },
+        {
+          "site": "Northeast",
+          "matured_lines": 2853,
+          "complete_on_time": 2565,
+          "otif": 0.8990536277602523,
+          "ordered_units": 21277,
+          "on_time_units": 19525,
+          "missed_units": 1752
+        }
+      ]
+    },
+    "Central": {
+      "totals": {
+        "matured_lines": 2826,
+        "otif": 0.8903043170559094,
+        "unit_fill": 0.9101407778573133,
+        "missed_units": 1883,
+        "ending_value": 116243.17,
+        "open_lines": 43
+      },
+      "top_skus": [
+        {
+          "site": "Central",
+          "sku": "SKU-041",
+          "matured_lines": 67,
+          "ordered_units": 509,
+          "on_time_units": 398,
+          "missed_units": 111,
+          "otif": 0.7313432835820896,
+          "category": "Shop supplies",
+          "ending_stock": 29,
+          "unit_cost": 63.44,
+          "missed_order_cost_basis": 7041.84
+        },
+        {
+          "site": "Central",
+          "sku": "SKU-011",
+          "matured_lines": 81,
+          "ordered_units": 604,
+          "on_time_units": 506,
+          "missed_units": 98,
+          "otif": 0.8148148148148148,
+          "category": "Fasteners",
+          "ending_stock": 5,
+          "unit_cost": 94.5,
+          "missed_order_cost_basis": 9261.0
+        },
+        {
+          "site": "Central",
+          "sku": "SKU-016",
+          "matured_lines": 83,
+          "ordered_units": 601,
+          "on_time_units": 503,
+          "missed_units": 98,
+          "otif": 0.8072289156626506,
+          "category": "Fasteners",
+          "ending_stock": 12,
+          "unit_cost": 116.44,
+          "missed_order_cost_basis": 11411.12
+        },
+        {
+          "site": "Central",
+          "sku": "SKU-051",
+          "matured_lines": 62,
+          "ordered_units": 448,
+          "on_time_units": 350,
+          "missed_units": 98,
+          "otif": 0.7096774193548387,
+          "category": "Tooling",
+          "ending_stock": 13,
+          "unit_cost": 79.47,
+          "missed_order_cost_basis": 7788.06
+        },
+        {
+          "site": "Central",
+          "sku": "SKU-031",
+          "matured_lines": 69,
+          "ordered_units": 458,
+          "on_time_units": 373,
+          "missed_units": 85,
+          "otif": 0.7536231884057971,
+          "category": "Safety supplies",
+          "ending_stock": 36,
+          "unit_cost": 133.55,
+          "missed_order_cost_basis": 11351.75
+        }
+      ],
+      "site_category": [
+        {
+          "site": "Central",
+          "category": "Fasteners",
+          "missed_units": 570
+        },
+        {
+          "site": "Central",
+          "category": "Tooling",
+          "missed_units": 444
+        },
+        {
+          "site": "Central",
+          "category": "Safety supplies",
+          "missed_units": 436
+        },
+        {
+          "site": "Central",
+          "category": "Shop supplies",
+          "missed_units": 433
+        }
+      ],
+      "site_service": [
+        {
+          "site": "Central",
+          "matured_lines": 2826,
+          "complete_on_time": 2516,
+          "otif": 0.8903043170559094,
+          "ordered_units": 20955,
+          "on_time_units": 19072,
+          "missed_units": 1883
+        }
+      ]
+    },
+    "Northeast": {
+      "totals": {
+        "matured_lines": 2853,
+        "otif": 0.8990536277602523,
+        "unit_fill": 0.9176575645062743,
+        "missed_units": 1752,
+        "ending_value": 134458.54,
+        "open_lines": 35
+      },
+      "top_skus": [
+        {
+          "site": "Northeast",
+          "sku": "SKU-031",
+          "matured_lines": 85,
+          "ordered_units": 599,
+          "on_time_units": 462,
+          "missed_units": 137,
+          "otif": 0.7058823529411765,
+          "category": "Safety supplies",
+          "ending_stock": 5,
+          "unit_cost": 133.55,
+          "missed_order_cost_basis": 18296.35
+        },
+        {
+          "site": "Northeast",
+          "sku": "SKU-051",
+          "matured_lines": 86,
+          "ordered_units": 602,
+          "on_time_units": 475,
+          "missed_units": 127,
+          "otif": 0.7674418604651163,
+          "category": "Tooling",
+          "ending_stock": 40,
+          "unit_cost": 79.47,
+          "missed_order_cost_basis": 10092.69
+        },
+        {
+          "site": "Northeast",
+          "sku": "SKU-041",
+          "matured_lines": 87,
+          "ordered_units": 644,
+          "on_time_units": 548,
+          "missed_units": 96,
+          "otif": 0.8275862068965517,
+          "category": "Shop supplies",
+          "ending_stock": 41,
+          "unit_cost": 63.44,
+          "missed_order_cost_basis": 6090.24
+        },
+        {
+          "site": "Northeast",
+          "sku": "SKU-016",
+          "matured_lines": 85,
+          "ordered_units": 621,
+          "on_time_units": 527,
+          "missed_units": 94,
+          "otif": 0.8352941176470589,
+          "category": "Fasteners",
+          "ending_stock": 42,
+          "unit_cost": 116.44,
+          "missed_order_cost_basis": 10945.36
+        },
+        {
+          "site": "Northeast",
+          "sku": "SKU-055",
+          "matured_lines": 58,
+          "ordered_units": 429,
+          "on_time_units": 335,
+          "missed_units": 94,
+          "otif": 0.7586206896551724,
+          "category": "Tooling",
+          "ending_stock": 24,
+          "unit_cost": 140.31,
+          "missed_order_cost_basis": 13189.14
+        }
+      ],
+      "site_category": [
+        {
+          "site": "Northeast",
+          "category": "Tooling",
+          "missed_units": 498
+        },
+        {
+          "site": "Northeast",
+          "category": "Safety supplies",
+          "missed_units": 420
+        },
+        {
+          "site": "Northeast",
+          "category": "Shop supplies",
+          "missed_units": 418
+        },
+        {
+          "site": "Northeast",
+          "category": "Fasteners",
+          "missed_units": 416
+        }
+      ],
+      "site_service": [
+        {
+          "site": "Northeast",
+          "matured_lines": 2853,
+          "complete_on_time": 2565,
+          "otif": 0.8990536277602523,
+          "ordered_units": 21277,
+          "on_time_units": 19525,
+          "missed_units": 1752
+        }
+      ]
+    },
+    "Southeast": {
+      "totals": {
+        "matured_lines": 2785,
+        "otif": 0.8793536804308797,
+        "unit_fill": 0.9033837087729303,
+        "missed_units": 2033,
+        "ending_value": 135200.63,
+        "open_lines": 34
+      },
+      "top_skus": [
+        {
+          "site": "Southeast",
+          "sku": "SKU-046",
+          "matured_lines": 86,
+          "ordered_units": 674,
+          "on_time_units": 525,
+          "missed_units": 149,
+          "otif": 0.7325581395348837,
+          "category": "Shop supplies",
+          "ending_stock": 34,
+          "unit_cost": 51.67,
+          "missed_order_cost_basis": 7698.83
+        },
+        {
+          "site": "Southeast",
+          "sku": "SKU-026",
+          "matured_lines": 79,
+          "ordered_units": 579,
+          "on_time_units": 441,
+          "missed_units": 138,
+          "otif": 0.7341772151898734,
+          "category": "Safety supplies",
+          "ending_stock": 24,
+          "unit_cost": 77.87,
+          "missed_order_cost_basis": 10746.06
+        },
+        {
+          "site": "Southeast",
+          "sku": "SKU-051",
+          "matured_lines": 78,
+          "ordered_units": 605,
+          "on_time_units": 492,
+          "missed_units": 113,
+          "otif": 0.7564102564102564,
+          "category": "Tooling",
+          "ending_stock": 0,
+          "unit_cost": 79.47,
+          "missed_order_cost_basis": 8980.11
+        },
+        {
+          "site": "Southeast",
+          "sku": "SKU-006",
+          "matured_lines": 70,
+          "ordered_units": 543,
+          "on_time_units": 436,
+          "missed_units": 107,
+          "otif": 0.7571428571428571,
+          "category": "Fasteners",
+          "ending_stock": 41,
+          "unit_cost": 127.1,
+          "missed_order_cost_basis": 13599.7
+        },
+        {
+          "site": "Southeast",
+          "sku": "SKU-031",
+          "matured_lines": 78,
+          "ordered_units": 584,
+          "on_time_units": 477,
+          "missed_units": 107,
+          "otif": 0.782051282051282,
+          "category": "Safety supplies",
+          "ending_stock": 18,
+          "unit_cost": 133.55,
+          "missed_order_cost_basis": 14289.85
+        }
+      ],
+      "site_category": [
+        {
+          "site": "Southeast",
+          "category": "Tooling",
+          "missed_units": 562
+        },
+        {
+          "site": "Southeast",
+          "category": "Safety supplies",
+          "missed_units": 536
+        },
+        {
+          "site": "Southeast",
+          "category": "Fasteners",
+          "missed_units": 480
+        },
+        {
+          "site": "Southeast",
+          "category": "Shop supplies",
+          "missed_units": 455
+        }
+      ],
+      "site_service": [
+        {
+          "site": "Southeast",
+          "matured_lines": 2785,
+          "complete_on_time": 2449,
+          "otif": 0.8793536804308797,
+          "ordered_units": 21042,
+          "on_time_units": 19009,
+          "missed_units": 2033
+        }
+      ]
+    },
+    "West": {
+      "totals": {
+        "matured_lines": 2754,
+        "otif": 0.6851851851851852,
+        "unit_fill": 0.6280799067486635,
+        "missed_units": 9253,
+        "ending_value": 100907.58,
+        "open_lines": 31
+      },
+      "top_skus": [
+        {
+          "site": "West",
+          "sku": "SKU-011",
+          "matured_lines": 86,
+          "ordered_units": 995,
+          "on_time_units": 109,
+          "missed_units": 886,
+          "otif": 0.10465116279069768,
+          "category": "Fasteners",
+          "ending_stock": 0,
+          "unit_cost": 94.5,
+          "missed_order_cost_basis": 83727.0
+        },
+        {
+          "site": "West",
+          "sku": "SKU-006",
+          "matured_lines": 67,
+          "ordered_units": 951,
+          "on_time_units": 233,
+          "missed_units": 718,
+          "otif": 0.19402985074626866,
+          "category": "Fasteners",
+          "ending_stock": 0,
+          "unit_cost": 127.1,
+          "missed_order_cost_basis": 91257.8
+        },
+        {
+          "site": "West",
+          "sku": "SKU-001",
+          "matured_lines": 66,
+          "ordered_units": 904,
+          "on_time_units": 195,
+          "missed_units": 709,
+          "otif": 0.25757575757575757,
+          "category": "Fasteners",
+          "ending_stock": 0,
+          "unit_cost": 55.23,
+          "missed_order_cost_basis": 39158.07
+        },
+        {
+          "site": "West",
+          "sku": "SKU-016",
+          "matured_lines": 67,
+          "ordered_units": 925,
+          "on_time_units": 217,
+          "missed_units": 708,
+          "otif": 0.2835820895522388,
+          "category": "Fasteners",
+          "ending_stock": 7,
+          "unit_cost": 116.44,
+          "missed_order_cost_basis": 82439.52
+        },
+        {
+          "site": "West",
+          "sku": "SKU-005",
+          "matured_lines": 54,
+          "ordered_units": 729,
+          "on_time_units": 218,
+          "missed_units": 511,
+          "otif": 0.2962962962962963,
+          "category": "Fasteners",
+          "ending_stock": 0,
+          "unit_cost": 22.53,
+          "missed_order_cost_basis": 11512.83
+        }
+      ],
+      "site_category": [
+        {
+          "site": "West",
+          "category": "Fasteners",
+          "missed_units": 6782
+        },
+        {
+          "site": "West",
+          "category": "Safety supplies",
+          "missed_units": 964
+        },
+        {
+          "site": "West",
+          "category": "Tooling",
+          "missed_units": 758
+        },
+        {
+          "site": "West",
+          "category": "Shop supplies",
+          "missed_units": 749
+        }
+      ],
+      "site_service": [
+        {
+          "site": "West",
+          "matured_lines": 2754,
+          "complete_on_time": 1887,
+          "otif": 0.6851851851851852,
+          "ordered_units": 24879,
+          "on_time_units": 15626,
+          "missed_units": 9253
+        }
+      ]
+    }
+  }
+}

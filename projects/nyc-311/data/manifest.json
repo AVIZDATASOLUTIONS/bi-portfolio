@@ -1,0 +1,14 @@
+{
+  "source": "https://data.cityofnewyork.us/resource/erm2-nwe9",
+  "created_inclusive": "2024-01-01",
+  "created_before": "2026-01-01",
+  "filters": {
+    "agency": "DOT",
+    "complaint_type": "Street Condition",
+    "descriptor": "Pothole"
+  },
+  "pagination_reconciliation": "Every monthly page total matched its independent Socrata count query",
+  "rows": 77239,
+  "retrieved_utc": "2026-11-25T18:59:33+00:00",
+  "sha256": "3c2866932ec017fb488364a2f1d1dadee9a55915913b7482df8a8a79d93e93af"
+}

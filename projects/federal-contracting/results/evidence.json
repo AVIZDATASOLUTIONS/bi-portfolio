@@ -1,0 +1,303 @@
+{
+  "source": {
+    "source": "https://api.usaspending.gov/api/v2/download/transactions/",
+    "filters": {
+      "time_period": [
+        {
+          "start_date": "2022-10-01",
+          "end_date": "2025-09-30",
+          "date_type": "action_date"
+        }
+      ],
+      "agencies": [
+        {
+          "type": "awarding",
+          "tier": "toptier",
+          "name": "Department of Health and Human Services"
+        },
+        {
+          "type": "awarding",
+          "tier": "toptier",
+          "name": "Department of the Treasury"
+        },
+        {
+          "type": "awarding",
+          "tier": "toptier",
+          "name": "General Services Administration"
+        }
+      ],
+      "naics_codes": {
+        "require": [
+          "541511",
+          "541512"
+        ]
+      },
+      "award_type_codes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "authority": "USAspending.gov Treasury contract prime transactions",
+    "source_file": "PrimeTransactionsAndSubawards_2026-11-25_H18M59S07232196.zip",
+    "status": "finished",
+    "rows": 23996,
+    "retrieved_utc": "2026-11-25T19:02:15+00:00",
+    "sha256": "e846838f23352311537a00aeb47e39209af820ed7f3044367911533a8aa77bbe"
+  },
+  "controls": [
+    {
+      "control": "Every source row reaches the action-grain fact",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Action IDs are present and unique",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Every action has its award key and signed amount",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Action fiscal year, agency and industry are within scope",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Net equals positive actions plus deobligations at each segment",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "HHI, supplier share and coverage stay between zero and one",
+      "exceptions": 0,
+      "status": "PASS"
+    }
+  ],
+  "results": {
+    "All agencies": {
+      "totals": {
+        "actions": 23996,
+        "net": 40308558112.98,
+        "reductions": -2084005578.2,
+        "funded": 4844
+      },
+      "top_segments": [
+        {
+          "agency": "Department of Health and Human Services",
+          "bureau": "National Institutes of Health",
+          "naics": "541512",
+          "net": 2674789155.27,
+          "funded_awards": 544,
+          "top_supplier_share": 0.15144700214597126,
+          "score": 94.7
+        },
+        {
+          "agency": "Department of Health and Human Services",
+          "bureau": "National Institutes of Health",
+          "naics": "541511",
+          "net": 899110108.37,
+          "funded_awards": 747,
+          "top_supplier_share": 0.10349829296462158,
+          "score": 90.5
+        },
+        {
+          "agency": "General Services Administration",
+          "bureau": "Federal Acquisition Service",
+          "naics": "541512",
+          "net": 17244104923.09,
+          "funded_awards": 386,
+          "top_supplier_share": 0.2187453668178426,
+          "score": 88.3
+        },
+        {
+          "agency": "General Services Administration",
+          "bureau": "Federal Acquisition Service",
+          "naics": "541511",
+          "net": 2187664243.84,
+          "funded_awards": 323,
+          "top_supplier_share": 0.128733296149462,
+          "score": 87.3
+        },
+        {
+          "agency": "Department of Health and Human Services",
+          "bureau": "Centers for Medicare and Medicaid Services",
+          "naics": "541512",
+          "net": 5084490505.36,
+          "funded_awards": 190,
+          "top_supplier_share": 0.13713765497352856,
+          "score": 86.4
+        }
+      ]
+    },
+    "HHS": {
+      "totals": {
+        "actions": 11005,
+        "net": 14953837333.69,
+        "reductions": -745337564.65,
+        "funded": 2983
+      },
+      "top_segments": [
+        {
+          "agency": "Department of Health and Human Services",
+          "bureau": "National Institutes of Health",
+          "naics": "541512",
+          "net": 2674789155.27,
+          "funded_awards": 544,
+          "top_supplier_share": 0.15144700214597126,
+          "score": 94.7
+        },
+        {
+          "agency": "Department of Health and Human Services",
+          "bureau": "National Institutes of Health",
+          "naics": "541511",
+          "net": 899110108.37,
+          "funded_awards": 747,
+          "top_supplier_share": 0.10349829296462158,
+          "score": 90.5
+        },
+        {
+          "agency": "Department of Health and Human Services",
+          "bureau": "Centers for Medicare and Medicaid Services",
+          "naics": "541512",
+          "net": 5084490505.36,
+          "funded_awards": 190,
+          "top_supplier_share": 0.13713765497352856,
+          "score": 86.4
+        },
+        {
+          "agency": "Department of Health and Human Services",
+          "bureau": "Centers for Disease Control and Prevention",
+          "naics": "541512",
+          "net": 1130648901.04,
+          "funded_awards": 215,
+          "top_supplier_share": 0.18697015250541105,
+          "score": 80.2
+        },
+        {
+          "agency": "Department of Health and Human Services",
+          "bureau": "Centers for Medicare and Medicaid Services",
+          "naics": "541511",
+          "net": 2354195482.27,
+          "funded_awards": 141,
+          "top_supplier_share": 0.21826290509508142,
+          "score": 74.2
+        }
+      ]
+    },
+    "Treasury": {
+      "totals": {
+        "actions": 5272,
+        "net": 5539130750.64,
+        "reductions": -311463544.71,
+        "funded": 1052
+      },
+      "top_segments": [
+        {
+          "agency": "Department of the Treasury",
+          "bureau": "Internal Revenue Service",
+          "naics": "541511",
+          "net": 841590709.75,
+          "funded_awards": 247,
+          "top_supplier_share": 0.10861406967535536,
+          "score": 85.8
+        },
+        {
+          "agency": "Department of the Treasury",
+          "bureau": "Internal Revenue Service",
+          "naics": "541512",
+          "net": 3935841108.89,
+          "funded_awards": 396,
+          "top_supplier_share": 0.2427599236117199,
+          "score": 85.3
+        },
+        {
+          "agency": "Department of the Treasury",
+          "bureau": "Bureau of the Fiscal Service",
+          "naics": "541512",
+          "net": 176612045.48,
+          "funded_awards": 71,
+          "top_supplier_share": 0.2103605245526776,
+          "score": 55.3
+        },
+        {
+          "agency": "Department of the Treasury",
+          "bureau": "Bureau of the Fiscal Service",
+          "naics": "541511",
+          "net": 184858584.43,
+          "funded_awards": 154,
+          "top_supplier_share": 0.46865074546641844,
+          "score": 50.2
+        },
+        {
+          "agency": "Department of the Treasury",
+          "bureau": "Bureau of Engraving and Printing",
+          "naics": "541512",
+          "net": 176128392.39,
+          "funded_awards": 51,
+          "top_supplier_share": 0.40106435951287034,
+          "score": 40.8
+        }
+      ]
+    },
+    "GSA": {
+      "totals": {
+        "actions": 7719,
+        "net": 19815590028.65,
+        "reductions": -1027204468.84,
+        "funded": 809
+      },
+      "top_segments": [
+        {
+          "agency": "General Services Administration",
+          "bureau": "Federal Acquisition Service",
+          "naics": "541512",
+          "net": 17244104923.09,
+          "funded_awards": 386,
+          "top_supplier_share": 0.2187453668178426,
+          "score": 88.3
+        },
+        {
+          "agency": "General Services Administration",
+          "bureau": "Federal Acquisition Service",
+          "naics": "541511",
+          "net": 2187664243.84,
+          "funded_awards": 323,
+          "top_supplier_share": 0.128733296149462,
+          "score": 87.3
+        },
+        {
+          "agency": "General Services Administration",
+          "bureau": "Office of Administrative Services",
+          "naics": "541511",
+          "net": 122277385.11,
+          "funded_awards": 45,
+          "top_supplier_share": 0.28725413185015325,
+          "score": 40.2
+        },
+        {
+          "agency": "General Services Administration",
+          "bureau": "Office of Administrative Services",
+          "naics": "541512",
+          "net": 245686394.44,
+          "funded_awards": 32,
+          "top_supplier_share": 0.3099859398332973,
+          "score": 39.8
+        },
+        {
+          "agency": "General Services Administration",
+          "bureau": "Public Buildings Service",
+          "naics": "541512",
+          "net": 11283236.61,
+          "funded_awards": 10,
+          "top_supplier_share": 0.4324338033613297,
+          "score": 6.9
+        }
+      ]
+    }
+  }
+}

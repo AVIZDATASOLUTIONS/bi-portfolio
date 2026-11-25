@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analytics dashboard | Weston Zloty</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="./styles.css">
+<script src="./dashboard-data.js" defer></script>
+<script src="./dashboard.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#report">Skip to dashboard</a>
+<header class="masthead"><div class="mast-inner"><a class="brand" href="./index.html">Weston Zloty</a><nav id="project-nav" aria-label="Case studies"></nav></div></header>
+<main id="report" class="wrap">
+<section class="heading">
+  <h1 id="title">Analytics dashboard</h1>
+  <p id="description"></p>
+  <div class="provenance" id="provenance"></div>
+</section>
+<form id="filters" class="filters">
+  <label for="scope" id="filter-label">Scope</label>
+  <select id="scope"></select>
+  <button id="reset" type="button">Reset</button>
+  <span id="view-status" class="sr-only" aria-live="polite"></span>
+</form>
+<div id="metrics" class="metrics" aria-label="Key metrics"></div>
+<div class="chart-grid" id="charts"></div>
+<section class="panel rank-panel" aria-labelledby="rank-heading">
+  <div class="panel-head with-action">
+    <div><h2 id="rank-heading"></h2><p id="rank-summary"></p></div>
+    <button id="download" type="button">Download CSV</button>
+  </div>
+  <div class="scroll-table" id="ranking" tabindex="0" role="region" aria-labelledby="rank-heading"></div>
+</section>
+<div class="decision" aria-live="polite">
+  <section><h2>Recommended next step</h2><p id="action"></p></section>
+  <section><h2>How to interpret this</h2><p id="method"></p></section>
+</div>
+<details class="controls" id="controls"><summary>Data validation checks <span id="check-count"></span></summary><ul id="checks"></ul></details>
+<noscript><p>Enable JavaScript to view the dashboard. The repository also contains CSV exports and case-study documentation.</p></noscript>
+</main>
+<footer class="wrap footer"><a href="./index.html">All case studies</a><span>Weston Zloty · Business intelligence portfolio</span></footer>
+</body>
+</html>

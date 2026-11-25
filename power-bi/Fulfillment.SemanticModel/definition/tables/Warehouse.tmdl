@@ -1,0 +1,20 @@
+table 'Warehouse'
+
+	column 'Warehouse'
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Warehouse
+
+	partition 'Warehouse' = m
+		mode: import
+		source =
+			let
+				Payload = Text.Combine({
+						"C08sSs3ILy1O5XJOzSspSszh8ssvKslITSwu4QrOL4WywlOBBAA="
+				}, ""),
+				Source = Binary.Decompress(Binary.FromText(Payload, BinaryEncoding.Base64), Compression.Deflate),
+				Rows = Csv.Document(Source, [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				Headers = Table.PromoteHeaders(Rows, [PromoteAllScalars=true]),
+				Typed = Table.TransformColumnTypes(Headers, {{"Warehouse", type text}}, "en-US")
+			in
+				Typed

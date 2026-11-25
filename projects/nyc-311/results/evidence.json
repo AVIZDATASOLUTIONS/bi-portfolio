@@ -1,0 +1,265 @@
+{
+  "source": {
+    "source": "https://data.cityofnewyork.us/resource/erm2-nwe9",
+    "created_inclusive": "2024-01-01",
+    "created_before": "2026-01-01",
+    "filters": {
+      "agency": "DOT",
+      "complaint_type": "Street Condition",
+      "descriptor": "Pothole"
+    },
+    "pagination_reconciliation": "Every monthly page total matched its independent Socrata count query",
+    "rows": 77239,
+    "retrieved_utc": "2026-11-25T18:59:33+00:00",
+    "sha256": "3c2866932ec017fb488364a2f1d1dadee9a55915913b7482df8a8a79d93e93af"
+  },
+  "controls": [
+    {
+      "control": "Public request IDs are non-null and unique",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Every raw record is classified",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "The published proxy has at least 30 days of opportunity",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Every 7-day closure is also a 30-day closure",
+      "exceptions": 0,
+      "status": "PASS"
+    },
+    {
+      "control": "Rates and unresolved counts reconcile",
+      "exceptions": 0,
+      "status": "PASS"
+    }
+  ],
+  "results": {
+    "All boroughs": {
+      "totals": {
+        "total": 77239,
+        "excluded": 19,
+        "rate7": 0.9085470085470085,
+        "aged": 0.07078477078477079
+      },
+      "weekend_comparison": {
+        "represented": 76973,
+        "adjusted_gap": 0.002991711764610307,
+        "crude_gap": 0.0023818203129610804
+      },
+      "boroughs": [
+        {
+          "title_borough": "QUEENS",
+          "year24": 0.8856012061816811,
+          "year25": 0.8343698048149745,
+          "unresolved_25": 2651,
+          "volume_25": 16241
+        },
+        {
+          "title_borough": "MANHATTAN",
+          "year24": 0.9634123222748815,
+          "year25": 0.9624912770411723,
+          "unresolved_25": 213,
+          "volume_25": 5732
+        },
+        {
+          "title_borough": "STATEN ISLAND",
+          "year24": 0.8726214461607342,
+          "year25": 0.9236719958741619,
+          "unresolved_25": 145,
+          "volume_25": 3878
+        },
+        {
+          "title_borough": "BRONX",
+          "year24": 0.8749441715051363,
+          "year25": 0.8810617662072486,
+          "unresolved_25": 131,
+          "volume_25": 3918
+        },
+        {
+          "title_borough": "BROOKLYN",
+          "year24": 0.9824046920821115,
+          "year25": 0.9914529914529915,
+          "unresolved_25": 31,
+          "volume_25": 8541
+        }
+      ],
+      "timing_quality": [
+        {
+          "timing_status": "Analyzable",
+          "requests": 77220
+        },
+        {
+          "timing_status": "Closure before intake",
+          "requests": 19
+        }
+      ]
+    },
+    "Bronx": {
+      "totals": {
+        "total": 8399,
+        "excluded": 3,
+        "rate7": 0.8777989518818485,
+        "aged": 0.030133396855645544
+      },
+      "weekend_comparison": {
+        "represented": 8396,
+        "adjusted_gap": -0.004027069442825425,
+        "crude_gap": 0.00815471296136816
+      },
+      "boroughs": [
+        {
+          "title_borough": "BRONX",
+          "year24": 0.8749441715051363,
+          "year25": 0.8810617662072486,
+          "unresolved_25": 131,
+          "volume_25": 3918
+        }
+      ],
+      "timing_quality": [
+        {
+          "timing_status": "Analyzable",
+          "requests": 8396
+        },
+        {
+          "timing_status": "Closure before intake",
+          "requests": 3
+        }
+      ]
+    },
+    "Brooklyn": {
+      "totals": {
+        "total": 17070,
+        "excluded": 4,
+        "rate7": 0.9869330833235673,
+        "aged": 0.004922067268252666
+      },
+      "weekend_comparison": {
+        "represented": 17066,
+        "adjusted_gap": 0.0024164082616181595,
+        "crude_gap": 0.0026986480505496457
+      },
+      "boroughs": [
+        {
+          "title_borough": "BROOKLYN",
+          "year24": 0.9824046920821115,
+          "year25": 0.9914529914529915,
+          "unresolved_25": 31,
+          "volume_25": 8541
+        }
+      ],
+      "timing_quality": [
+        {
+          "timing_status": "Analyzable",
+          "requests": 17066
+        },
+        {
+          "timing_status": "Closure before intake",
+          "requests": 4
+        }
+      ]
+    },
+    "Manhattan": {
+      "totals": {
+        "total": 11009,
+        "excluded": 2,
+        "rate7": 0.9629326792041428,
+        "aged": 0.03634051058417371
+      },
+      "weekend_comparison": {
+        "represented": 11007,
+        "adjusted_gap": -0.00860586448113161,
+        "crude_gap": -0.00790189085016324
+      },
+      "boroughs": [
+        {
+          "title_borough": "MANHATTAN",
+          "year24": 0.9634123222748815,
+          "year25": 0.9624912770411723,
+          "unresolved_25": 213,
+          "volume_25": 5732
+        }
+      ],
+      "timing_quality": [
+        {
+          "timing_status": "Analyzable",
+          "requests": 11007
+        },
+        {
+          "timing_status": "Closure before intake",
+          "requests": 2
+        }
+      ]
+    },
+    "Queens": {
+      "totals": {
+        "total": 32166,
+        "excluded": 7,
+        "rate7": 0.8597282253801424,
+        "aged": 0.13750427563046114
+      },
+      "weekend_comparison": {
+        "represented": 32159,
+        "adjusted_gap": 0.01290168098629059,
+        "crude_gap": 0.007196896528678942
+      },
+      "boroughs": [
+        {
+          "title_borough": "QUEENS",
+          "year24": 0.8856012061816811,
+          "year25": 0.8343698048149745,
+          "unresolved_25": 2651,
+          "volume_25": 16241
+        }
+      ],
+      "timing_quality": [
+        {
+          "timing_status": "Analyzable",
+          "requests": 32159
+        },
+        {
+          "timing_status": "Closure before intake",
+          "requests": 7
+        }
+      ]
+    },
+    "Staten Island": {
+      "totals": {
+        "total": 8348,
+        "excluded": 3,
+        "rate7": 0.896345116836429,
+        "aged": 0.035829838226482925
+      },
+      "weekend_comparison": {
+        "represented": 8345,
+        "adjusted_gap": -0.011662855265160876,
+        "crude_gap": -0.028007188250595894
+      },
+      "boroughs": [
+        {
+          "title_borough": "STATEN ISLAND",
+          "year24": 0.8726214461607342,
+          "year25": 0.9236719958741619,
+          "unresolved_25": 145,
+          "volume_25": 3878
+        }
+      ],
+      "timing_quality": [
+        {
+          "timing_status": "Analyzable",
+          "requests": 8345
+        },
+        {
+          "timing_status": "Closure before intake",
+          "requests": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+campus,week,outcome,records
+Cedar,2025-08-18,Matched,1500
+Cedar,2025-08-25,Matched,1500
+Cedar,2025-09-01,Matched,1200
+Cedar,2025-09-08,Matched,1500
+Cedar,2025-09-15,Matched,1500
+Cedar,2025-09-22,Matched,1500
+Cedar,2025-09-29,Matched,1500
+Cedar,2025-10-06,Matched,1500
+Cedar,2025-10-13,Matched,1200
+Cedar,2025-10-20,Matched,1500
+Cedar,2025-10-27,Matched,1500
+Cedar,2025-11-03,Matched,1500
+Cedar,2025-11-10,Matched,600
+Harbor,2025-08-18,Matched,1500
+Harbor,2025-08-25,Matched,1500
+Harbor,2025-09-01,Matched,1200
+Harbor,2025-09-08,Matched,1500
+Harbor,2025-09-15,Matched,1479
+Harbor,2025-09-15,Unknown code,21
+Harbor,2025-09-22,Matched,1466
+Harbor,2025-09-22,Unknown code,34
+Harbor,2025-09-29,Matched,1471
+Harbor,2025-09-29,Unknown code,29
+Harbor,2025-10-06,Matched,1465
+Harbor,2025-10-06,Unknown code,35
+Harbor,2025-10-13,Matched,1176
+Harbor,2025-10-13,Unknown code,24
+Harbor,2025-10-20,Matched,1479
+Harbor,2025-10-20,Unknown code,21
+Harbor,2025-10-27,Matched,1466
+Harbor,2025-10-27,Unknown code,34
+Harbor,2025-11-03,Matched,1478
+Harbor,2025-11-03,Unknown code,22
+Harbor,2025-11-10,Matched,590
+Harbor,2025-11-10,Unknown code,10
+Lakeside,2025-08-18,Matched,1484
+Lakeside,2025-08-18,Status mismatch,16
+Lakeside,2025-08-25,Matched,1491
+Lakeside,2025-08-25,Status mismatch,9
+Lakeside,2025-09-01,Matched,1194
+Lakeside,2025-09-01,Status mismatch,6
+Lakeside,2025-09-08,Matched,1494
+Lakeside,2025-09-08,Status mismatch,6
+Lakeside,2025-09-15,Matched,1488
+Lakeside,2025-09-15,Status mismatch,12
+Lakeside,2025-09-22,Matched,1493
+Lakeside,2025-09-22,Status mismatch,7
+Lakeside,2025-09-29,Matched,1488
+Lakeside,2025-09-29,Status mismatch,12
+Lakeside,2025-10-06,Matched,1486
+Lakeside,2025-10-06,Status mismatch,14
+Lakeside,2025-10-13,Matched,1189
+Lakeside,2025-10-13,Status mismatch,11
+Lakeside,2025-10-20,Matched,1491
+Lakeside,2025-10-20,Status mismatch,9
+Lakeside,2025-10-27,Matched,1490
+Lakeside,2025-10-27,Status mismatch,10
+Lakeside,2025-11-03,Matched,1495
+Lakeside,2025-11-03,Status mismatch,5
+Lakeside,2025-11-10,Matched,598
+Lakeside,2025-11-10,Status mismatch,2
+River,2025-08-18,Matched,1483
+River,2025-08-18,Missing record,17
+River,2025-08-25,Matched,1479
+River,2025-08-25,Missing record,21
+River,2025-09-01,Matched,1179
+River,2025-09-01,Missing record,21
+River,2025-09-08,Matched,1486
+River,2025-09-08,Missing record,14
+River,2025-09-15,Matched,1486
+River,2025-09-15,Missing record,14
+River,2025-09-22,Matched,1487
+River,2025-09-22,Missing record,13
+River,2025-09-29,Matched,1487
+River,2025-09-29,Missing record,13
+River,2025-10-06,Matched,1480
+River,2025-10-06,Missing record,20
+River,2025-10-13,Matched,1186
+River,2025-10-13,Missing record,14
+River,2025-10-20,Matched,1487
+River,2025-10-20,Missing record,13
+River,2025-10-27,Matched,1484
+River,2025-10-27,Missing record,16
+River,2025-11-03,Matched,1485
+River,2025-11-03,Missing record,15
+River,2025-11-10,Matched,594
+River,2025-11-10,Missing record,6

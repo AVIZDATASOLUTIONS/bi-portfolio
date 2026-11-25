@@ -1,0 +1,9 @@
+EVALUATE
+ROW(
+    "Matured Lines", [Matured Lines],
+    "OTIF Lines", [OTIF Lines],
+    "Line OTIF", [Line OTIF],
+    "On Time Unit Fill", [On Time Unit Fill],
+    "Missed Promise Units", [Missed Promise Units],
+    "Ending Inventory Value", [Ending Inventory Value]
+)

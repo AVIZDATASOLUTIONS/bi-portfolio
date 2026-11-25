@@ -1,0 +1,92 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "a8e4069024eef877c030",
+  "position": {
+    "x": 27,
+    "y": 217,
+    "width": 741,
+    "height": 276,
+    "z": 1244,
+    "tabOrder": 1244
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "drillFilterOtherVisuals": true,
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendar"
+                    }
+                  },
+                  "Property": "Week Beginning"
+                }
+              },
+              "queryRef": "Calendar.Week Beginning",
+              "nativeQueryRef": "Week Beginning"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Order Lines"
+                    }
+                  },
+                  "Property": "Line OTIF"
+                }
+              },
+              "queryRef": "Order Lines.Line OTIF",
+              "nativeQueryRef": "Line OTIF"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Order Lines"
+                    }
+                  },
+                  "Property": "On Time Unit Fill"
+                }
+              },
+              "queryRef": "Order Lines.On Time Unit Fill",
+              "nativeQueryRef": "On Time Unit Fill"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Delivery performance by promise week'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

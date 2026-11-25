@@ -1,0 +1,744 @@
+student_id,instruction_date,campus,grade,expected_status,observed_status,new_raw_code,new_row_count,conflicting_edits,outcome
+OLD00105,2025-08-19,Cedar,9,Present,Present,P,2,true,Matched
+OLD00284,2025-08-19,Cedar,12,Present,Present,P,2,true,Matched
+OLD00022,2025-08-21,Cedar,10,Present,Present,P,2,true,Matched
+OLD00160,2025-08-25,Cedar,12,Present,Present,P,2,true,Matched
+OLD00192,2025-08-25,Cedar,12,Present,Present,P,2,true,Matched
+OLD00224,2025-08-26,Cedar,12,Present,Present,P,2,true,Matched
+OLD00291,2025-08-26,Cedar,11,Present,Present,P,2,true,Matched
+OLD00201,2025-08-28,Cedar,9,Present,Present,P,2,true,Matched
+OLD00220,2025-08-28,Cedar,12,Absent,Absent,A,2,true,Matched
+OLD00171,2025-09-02,Cedar,11,Present,Present,P,2,true,Matched
+OLD00158,2025-09-03,Cedar,10,Present,Present,P,2,true,Matched
+OLD00023,2025-09-05,Cedar,11,Present,Present,P,2,true,Matched
+OLD00278,2025-09-05,Cedar,10,Present,Present,P,2,true,Matched
+OLD00075,2025-09-08,Cedar,11,Present,Present,P,2,true,Matched
+OLD00289,2025-09-08,Cedar,9,Present,Present,P,2,true,Matched
+OLD00293,2025-09-08,Cedar,9,Present,Present,P,2,true,Matched
+OLD00297,2025-09-10,Cedar,9,Present,Present,P,2,true,Matched
+OLD00247,2025-09-11,Cedar,11,Present,Present,P,2,true,Matched
+OLD00277,2025-09-11,Cedar,9,Present,Present,P,2,true,Matched
+OLD00136,2025-09-12,Cedar,12,Present,Present,P,2,true,Matched
+OLD00250,2025-09-15,Cedar,10,Present,Present,P,2,true,Matched
+OLD00040,2025-09-16,Cedar,12,Present,Present,P,2,true,Matched
+OLD00184,2025-09-17,Cedar,12,Present,Present,P,2,true,Matched
+OLD00032,2025-09-19,Cedar,12,Present,Present,P,2,true,Matched
+OLD00023,2025-09-22,Cedar,11,Present,Present,P,2,true,Matched
+OLD00102,2025-09-22,Cedar,10,Present,Present,P,2,true,Matched
+OLD00257,2025-09-22,Cedar,9,Present,Present,P,2,true,Matched
+OLD00193,2025-09-23,Cedar,9,Present,Present,P,2,true,Matched
+OLD00171,2025-09-24,Cedar,11,Present,Present,P,2,true,Matched
+OLD00160,2025-09-30,Cedar,12,Present,Present,P,2,true,Matched
+OLD00044,2025-10-01,Cedar,12,Present,Present,P,2,true,Matched
+OLD00019,2025-10-03,Cedar,11,Present,Present,P,2,true,Matched
+OLD00284,2025-10-08,Cedar,12,Present,Present,P,2,true,Matched
+OLD00106,2025-10-09,Cedar,10,Present,Present,P,2,true,Matched
+OLD00057,2025-10-10,Cedar,9,Present,Present,P,2,true,Matched
+OLD00053,2025-10-14,Cedar,9,Present,Present,P,2,true,Matched
+OLD00197,2025-10-15,Cedar,9,Present,Present,P,2,true,Matched
+OLD00203,2025-10-16,Cedar,11,Present,Present,P,2,true,Matched
+OLD00282,2025-10-16,Cedar,10,Present,Present,P,2,true,Matched
+OLD00194,2025-10-17,Cedar,10,Present,Present,P,2,true,Matched
+OLD00253,2025-10-17,Cedar,9,Present,Present,P,2,true,Matched
+OLD00040,2025-10-20,Cedar,12,Present,Present,P,2,true,Matched
+OLD00276,2025-10-22,Cedar,12,Present,Present,P,2,true,Matched
+OLD00160,2025-10-23,Cedar,12,Present,Present,P,2,true,Matched
+OLD00208,2025-10-28,Cedar,12,Present,Present,P,2,true,Matched
+OLD00077,2025-10-29,Cedar,9,Present,Present,P,2,true,Matched
+OLD00162,2025-10-31,Cedar,10,Present,Present,P,2,true,Matched
+OLD00232,2025-10-31,Cedar,12,Present,Present,P,2,true,Matched
+OLD00142,2025-11-03,Cedar,10,Present,Present,P,2,true,Matched
+OLD00275,2025-11-06,Cedar,11,Tardy,Tardy,T,2,true,Matched
+OLD00133,2025-11-07,Cedar,9,Present,Present,P,2,true,Matched
+OLD00280,2025-11-07,Cedar,12,Present,Present,P,2,true,Matched
+OLD00307,2025-08-19,Harbor,11,Present,Present,P,2,true,Matched
+OLD00527,2025-08-20,Harbor,11,Present,Present,P,2,true,Matched
+OLD00579,2025-08-21,Harbor,11,Present,Present,P,2,true,Matched
+OLD00427,2025-08-22,Harbor,11,Absent,Absent,EX,2,true,Matched
+OLD00470,2025-08-22,Harbor,10,Present,Present,P,2,true,Matched
+OLD00489,2025-08-22,Harbor,9,Absent,Absent,EX,2,true,Matched
+OLD00388,2025-08-25,Harbor,12,Present,Present,P,2,true,Matched
+OLD00376,2025-08-27,Harbor,12,Present,Present,P,2,true,Matched
+OLD00516,2025-08-28,Harbor,12,Present,Present,P,2,true,Matched
+OLD00449,2025-09-02,Harbor,9,Present,Present,X,2,true,Matched
+OLD00489,2025-09-02,Harbor,9,Present,Present,P,2,true,Matched
+OLD00497,2025-09-03,Harbor,9,Present,Present,P,2,true,Matched
+OLD00427,2025-09-04,Harbor,11,Present,Present,P,2,true,Matched
+OLD00392,2025-09-05,Harbor,12,Present,Present,P,2,true,Matched
+OLD00442,2025-09-05,Harbor,10,Present,Present,P,2,true,Matched
+OLD00370,2025-09-09,Harbor,10,Present,Present,P,2,true,Matched
+OLD00327,2025-09-11,Harbor,11,Present,Present,P,2,true,Matched
+OLD00452,2025-09-15,Harbor,12,Present,Present,P,2,true,Matched
+OLD00351,2025-09-16,Harbor,11,Present,Present,P,2,true,Matched
+OLD00393,2025-09-16,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00504,2025-09-16,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00506,2025-09-16,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00526,2025-09-16,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00576,2025-09-16,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00599,2025-09-16,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00332,2025-09-17,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00412,2025-09-17,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00430,2025-09-17,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00498,2025-09-17,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00590,2025-09-17,Harbor,10,Present,Present,P,2,true,Matched
+OLD00597,2025-09-17,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00330,2025-09-18,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00378,2025-09-18,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00395,2025-09-18,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00417,2025-09-18,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00447,2025-09-18,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00532,2025-09-18,Harbor,12,Present,Present,P,2,true,Matched
+OLD00588,2025-09-18,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00373,2025-09-19,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00437,2025-09-19,Harbor,9,Present,Present,P,2,true,Matched
+OLD00515,2025-09-19,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00534,2025-09-19,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00539,2025-09-19,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00332,2025-09-22,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00395,2025-09-22,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00451,2025-09-22,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00470,2025-09-22,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00486,2025-09-22,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00522,2025-09-22,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00524,2025-09-22,Harbor,12,Present,Present,P,2,true,Matched
+OLD00545,2025-09-22,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00563,2025-09-22,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00566,2025-09-22,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00321,2025-09-23,Harbor,9,Present,Present,P,2,true,Matched
+OLD00332,2025-09-23,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00371,2025-09-23,Harbor,11,Present,Present,P,2,true,Matched
+OLD00383,2025-09-23,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00388,2025-09-23,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00418,2025-09-23,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00438,2025-09-23,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00478,2025-09-23,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00503,2025-09-23,Harbor,11,Present,Present,P,2,true,Matched
+OLD00558,2025-09-23,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00428,2025-09-24,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00500,2025-09-24,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00512,2025-09-24,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00527,2025-09-24,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00311,2025-09-25,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00375,2025-09-25,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00382,2025-09-25,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00431,2025-09-25,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00559,2025-09-25,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00594,2025-09-25,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00327,2025-09-26,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00385,2025-09-26,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00392,2025-09-26,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00423,2025-09-26,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00522,2025-09-26,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00529,2025-09-26,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00566,2025-09-26,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00579,2025-09-26,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00312,2025-09-29,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00379,2025-09-29,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00413,2025-09-29,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00418,2025-09-29,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00440,2025-09-29,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00467,2025-09-29,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00385,2025-09-30,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00459,2025-09-30,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00544,2025-09-30,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00561,2025-09-30,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00302,2025-10-01,Harbor,10,Present,Present,P,2,true,Matched
+OLD00339,2025-10-01,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00352,2025-10-01,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00353,2025-10-01,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00364,2025-10-01,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00379,2025-10-01,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00391,2025-10-01,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00439,2025-10-01,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00484,2025-10-01,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00519,2025-10-01,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00598,2025-10-01,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00345,2025-10-02,Harbor,9,Present,Present,P,2,true,Matched
+OLD00358,2025-10-02,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00362,2025-10-02,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00366,2025-10-02,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00407,2025-10-02,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00548,2025-10-02,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00370,2025-10-03,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00373,2025-10-03,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00379,2025-10-03,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00474,2025-10-03,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00346,2025-10-06,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00356,2025-10-06,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00374,2025-10-06,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00449,2025-10-06,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00502,2025-10-06,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00525,2025-10-06,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00553,2025-10-06,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00558,2025-10-06,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00576,2025-10-06,Harbor,12,Present,Present,P,2,true,Matched
+OLD00336,2025-10-07,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00434,2025-10-07,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00460,2025-10-07,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00465,2025-10-07,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00544,2025-10-07,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00553,2025-10-07,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00577,2025-10-07,Harbor,9,Present,Present,P,2,true,Matched
+OLD00591,2025-10-07,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00318,2025-10-08,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00347,2025-10-08,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00356,2025-10-08,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00362,2025-10-08,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00371,2025-10-08,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00382,2025-10-08,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00406,2025-10-08,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00421,2025-10-08,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00566,2025-10-08,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00577,2025-10-08,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00437,2025-10-09,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00454,2025-10-09,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00465,2025-10-09,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00474,2025-10-09,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00539,2025-10-09,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00549,2025-10-09,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00327,2025-10-10,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00450,2025-10-10,Harbor,10,Present,Present,P,2,true,Matched
+OLD00465,2025-10-10,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00472,2025-10-10,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00523,2025-10-10,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00337,2025-10-14,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00360,2025-10-14,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00369,2025-10-14,Harbor,9,Present,Present,P,2,true,Matched
+OLD00434,2025-10-14,Harbor,10,Present,Present,P,2,true,Matched
+OLD00436,2025-10-14,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00492,2025-10-14,Harbor,12,Present,Present,P,2,true,Matched
+OLD00549,2025-10-14,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00600,2025-10-14,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00302,2025-10-15,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00413,2025-10-15,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00513,2025-10-15,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00534,2025-10-15,Harbor,10,Present,Present,P,2,true,Matched
+OLD00570,2025-10-15,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00576,2025-10-15,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00581,2025-10-15,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00375,2025-10-16,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00390,2025-10-16,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00459,2025-10-16,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00519,2025-10-16,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00531,2025-10-16,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00564,2025-10-16,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00329,2025-10-17,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00362,2025-10-17,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00371,2025-10-17,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00383,2025-10-17,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00444,2025-10-17,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00462,2025-10-17,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00543,2025-10-17,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00377,2025-10-20,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00358,2025-10-21,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00388,2025-10-21,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00397,2025-10-21,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00411,2025-10-21,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00449,2025-10-21,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00452,2025-10-21,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00485,2025-10-21,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00490,2025-10-21,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00528,2025-10-21,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00592,2025-10-21,Harbor,12,Present,Present,P,2,true,Matched
+OLD00403,2025-10-22,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00439,2025-10-22,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00544,2025-10-22,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00554,2025-10-22,Harbor,10,Present,Present,P,2,true,Matched
+OLD00368,2025-10-23,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00409,2025-10-23,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00471,2025-10-23,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00514,2025-10-23,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00555,2025-10-23,Harbor,11,Present,Present,P,2,true,Matched
+OLD00314,2025-10-24,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00325,2025-10-24,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00351,2025-10-24,Harbor,11,Present,Present,P,2,true,Matched
+OLD00374,2025-10-24,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00593,2025-10-24,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00351,2025-10-27,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00415,2025-10-27,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00450,2025-10-27,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00472,2025-10-27,Harbor,12,Absent,Absent,A,2,true,Matched
+OLD00512,2025-10-27,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00522,2025-10-27,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00528,2025-10-27,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00587,2025-10-27,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00336,2025-10-28,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00344,2025-10-28,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00458,2025-10-28,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00460,2025-10-28,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00470,2025-10-28,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00471,2025-10-28,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00475,2025-10-28,Harbor,11,Present,Present,P,2,true,Matched
+OLD00535,2025-10-28,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00566,2025-10-28,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00327,2025-10-29,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00350,2025-10-29,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00356,2025-10-29,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00470,2025-10-29,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00490,2025-10-29,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00502,2025-10-29,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00515,2025-10-29,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00517,2025-10-29,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00304,2025-10-30,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00318,2025-10-30,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00391,2025-10-30,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00577,2025-10-30,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00302,2025-10-31,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00337,2025-10-31,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00391,2025-10-31,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00428,2025-10-31,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00463,2025-10-31,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00473,2025-10-31,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00600,2025-10-31,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00382,2025-11-03,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00387,2025-11-03,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00445,2025-11-03,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00462,2025-11-03,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00474,2025-11-03,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00487,2025-11-03,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00533,2025-11-03,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00553,2025-11-03,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00327,2025-11-04,Harbor,11,Present,Present,P,2,true,Matched
+OLD00425,2025-11-04,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00561,2025-11-04,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00325,2025-11-05,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00375,2025-11-05,Harbor,11,Absent,,EA2,2,true,Unknown code
+OLD00437,2025-11-05,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00392,2025-11-06,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00409,2025-11-06,Harbor,9,Present,Present,P,2,true,Matched
+OLD00410,2025-11-06,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00452,2025-11-06,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00477,2025-11-06,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00581,2025-11-06,Harbor,9,Present,Present,P,2,true,Matched
+OLD00589,2025-11-06,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00318,2025-11-07,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00454,2025-11-07,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00484,2025-11-07,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00583,2025-11-07,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00366,2025-11-10,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00386,2025-11-10,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00395,2025-11-10,Harbor,11,Absent,,EA2,1,false,Unknown code
+OLD00429,2025-11-10,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00430,2025-11-10,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00456,2025-11-10,Harbor,12,Present,Present,P,2,true,Matched
+OLD00515,2025-11-10,Harbor,11,Present,Present,P,2,true,Matched
+OLD00314,2025-11-11,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00401,2025-11-11,Harbor,9,Absent,,EA2,1,false,Unknown code
+OLD00418,2025-11-11,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00480,2025-11-11,Harbor,12,Absent,,EA2,1,false,Unknown code
+OLD00494,2025-11-11,Harbor,10,Absent,,EA2,1,false,Unknown code
+OLD00677,2025-08-18,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00678,2025-08-18,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00753,2025-08-18,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00825,2025-08-18,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00863,2025-08-18,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00722,2025-08-19,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00737,2025-08-19,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00833,2025-08-19,Lakeside,9,Present,Present,P,2,true,Matched
+OLD00894,2025-08-19,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00608,2025-08-20,Lakeside,12,Present,Present,P,2,true,Matched
+OLD00714,2025-08-20,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00743,2025-08-20,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00797,2025-08-20,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00614,2025-08-21,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00644,2025-08-21,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00693,2025-08-21,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00731,2025-08-21,Lakeside,11,Absent,Absent,A,2,true,Matched
+OLD00823,2025-08-21,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00621,2025-08-22,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00732,2025-08-22,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00643,2025-08-25,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00692,2025-08-25,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00788,2025-08-25,Lakeside,12,Present,Present,P,2,true,Matched
+OLD00604,2025-08-26,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00740,2025-08-26,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00760,2025-08-26,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00782,2025-08-26,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00668,2025-08-27,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00688,2025-08-27,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00765,2025-08-27,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00742,2025-08-28,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00757,2025-08-29,Lakeside,9,Present,Present,P,2,true,Matched
+OLD00622,2025-09-02,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00671,2025-09-02,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00893,2025-09-03,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00790,2025-09-04,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00677,2025-09-05,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00764,2025-09-05,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00811,2025-09-05,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00857,2025-09-05,Lakeside,9,Present,Present,P,2,true,Matched
+OLD00891,2025-09-05,Lakeside,11,Absent,Absent,A,2,true,Matched
+OLD00643,2025-09-09,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00894,2025-09-09,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00767,2025-09-11,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00775,2025-09-11,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00666,2025-09-12,Lakeside,10,Tardy,Tardy,T,2,true,Matched
+OLD00710,2025-09-12,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00739,2025-09-12,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00822,2025-09-12,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00825,2025-09-12,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00602,2025-09-15,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00734,2025-09-15,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00855,2025-09-15,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00870,2025-09-15,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00717,2025-09-16,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00736,2025-09-16,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00795,2025-09-16,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00852,2025-09-16,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00645,2025-09-17,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00681,2025-09-17,Lakeside,9,Absent,Absent,A,2,true,Matched
+OLD00784,2025-09-17,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00687,2025-09-18,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00882,2025-09-18,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00706,2025-09-19,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00804,2025-09-19,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00712,2025-09-22,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00796,2025-09-22,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00779,2025-09-23,Lakeside,11,Present,Present,P,2,true,Matched
+OLD00803,2025-09-23,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00874,2025-09-23,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00782,2025-09-24,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00805,2025-09-24,Lakeside,9,Present,Present,P,2,true,Matched
+OLD00834,2025-09-24,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00858,2025-09-24,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00652,2025-09-25,Lakeside,12,Present,Present,P,2,true,Matched
+OLD00710,2025-09-25,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00769,2025-09-25,Lakeside,9,Present,Present,P,2,true,Matched
+OLD00822,2025-09-25,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00861,2025-09-25,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00760,2025-09-29,Lakeside,12,Absent,Absent,EX,2,true,Matched
+OLD00767,2025-09-29,Lakeside,11,Present,Present,P,2,true,Matched
+OLD00801,2025-09-29,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00816,2025-09-29,Lakeside,12,Present,Present,P,2,true,Matched
+OLD00859,2025-09-29,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00648,2025-09-30,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00683,2025-09-30,Lakeside,11,Present,Present,P,2,true,Matched
+OLD00787,2025-09-30,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00843,2025-09-30,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00728,2025-10-01,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00785,2025-10-01,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00887,2025-10-01,Lakeside,11,Tardy,Tardy,T,2,true,Matched
+OLD00668,2025-10-02,Lakeside,12,Present,Present,P,2,true,Matched
+OLD00669,2025-10-02,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00705,2025-10-02,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00744,2025-10-02,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00850,2025-10-02,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00619,2025-10-03,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00690,2025-10-03,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00786,2025-10-03,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00661,2025-10-06,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00846,2025-10-06,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00880,2025-10-06,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00608,2025-10-07,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00612,2025-10-07,Lakeside,12,Present,Present,P,2,true,Matched
+OLD00688,2025-10-07,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00769,2025-10-07,Lakeside,9,Absent,Absent,A,2,true,Matched
+OLD00891,2025-10-07,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00648,2025-10-08,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00716,2025-10-08,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00619,2025-10-09,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00700,2025-10-09,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00745,2025-10-09,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00749,2025-10-09,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00853,2025-10-09,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00815,2025-10-10,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00740,2025-10-14,Lakeside,12,Present,Present,P,2,true,Matched
+OLD00779,2025-10-14,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00637,2025-10-15,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00733,2025-10-15,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00641,2025-10-16,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00752,2025-10-16,Lakeside,12,Present,Present,P,2,true,Matched
+OLD00760,2025-10-16,Lakeside,12,Present,Present,P,2,true,Matched
+OLD00812,2025-10-16,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00853,2025-10-16,Lakeside,9,Present,Present,P,2,true,Matched
+OLD00608,2025-10-17,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00632,2025-10-17,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00750,2025-10-17,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00755,2025-10-17,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00823,2025-10-17,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00824,2025-10-17,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00638,2025-10-20,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00887,2025-10-20,Lakeside,11,Present,Present,P,2,true,Matched
+OLD00896,2025-10-20,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00610,2025-10-21,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00725,2025-10-21,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00899,2025-10-21,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00807,2025-10-22,Lakeside,11,Present,Present,P,2,true,Matched
+OLD00615,2025-10-23,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00619,2025-10-23,Lakeside,11,Present,Present,P,2,true,Matched
+OLD00768,2025-10-23,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00870,2025-10-23,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00787,2025-10-24,Lakeside,11,Tardy,Tardy,T,2,true,Matched
+OLD00836,2025-10-24,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00637,2025-10-27,Lakeside,9,Present,Present,P,2,true,Matched
+OLD00687,2025-10-27,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00636,2025-10-28,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00800,2025-10-28,Lakeside,12,Present,Present,P,2,true,Matched
+OLD00835,2025-10-28,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00606,2025-10-29,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00661,2025-10-29,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00685,2025-10-29,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00731,2025-10-29,Lakeside,11,Present,Present,P,2,true,Matched
+OLD00877,2025-10-29,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00671,2025-10-30,Lakeside,11,Present,Present,P,2,true,Matched
+OLD00812,2025-10-30,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00828,2025-10-30,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00867,2025-10-30,Lakeside,11,Absent,Absent,A,2,true,Matched
+OLD00617,2025-10-31,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00879,2025-10-31,Lakeside,11,Present,Present,P,2,true,Matched
+OLD00640,2025-11-03,Lakeside,12,Present,Present,P,2,true,Matched
+OLD00695,2025-11-03,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00820,2025-11-03,Lakeside,12,Absent,Present,P,1,false,Status mismatch
+OLD00760,2025-11-04,Lakeside,12,Absent,Present,P,2,true,Status mismatch
+OLD00779,2025-11-04,Lakeside,11,Present,Present,P,2,true,Matched
+OLD00638,2025-11-05,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00703,2025-11-05,Lakeside,11,Present,Present,P,2,true,Matched
+OLD00761,2025-11-05,Lakeside,9,Absent,Present,P,1,false,Status mismatch
+OLD00625,2025-11-06,Lakeside,9,Present,Present,P,2,true,Matched
+OLD00799,2025-11-06,Lakeside,11,Tardy,Tardy,T,2,true,Matched
+OLD00669,2025-11-07,Lakeside,9,Tardy,Tardy,T,2,true,Matched
+OLD00782,2025-11-07,Lakeside,10,Absent,Present,P,1,false,Status mismatch
+OLD00882,2025-11-07,Lakeside,10,Present,Present,P,2,true,Matched
+OLD00811,2025-11-10,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00847,2025-11-10,Lakeside,11,Absent,Present,P,1,false,Status mismatch
+OLD00857,2025-11-10,Lakeside,9,Present,Present,P,2,true,Matched
+OLD00902,2025-08-18,River,10,Absent,,,0,false,Missing record
+OLD00978,2025-08-18,River,10,Present,Present,P,2,true,Matched
+OLD00997,2025-08-18,River,9,Absent,,,0,false,Missing record
+OLD01051,2025-08-18,River,11,Present,Present,P,2,true,Matched
+OLD01091,2025-08-18,River,11,Present,,,0,false,Missing record
+OLD01181,2025-08-18,River,9,Present,,,0,false,Missing record
+OLD01035,2025-08-19,River,11,Present,,,0,false,Missing record
+OLD00995,2025-08-20,River,11,Present,,,0,false,Missing record
+OLD00902,2025-08-21,River,10,Present,,,0,false,Missing record
+OLD00975,2025-08-21,River,11,Present,,,0,false,Missing record
+OLD00976,2025-08-21,River,12,Present,,,0,false,Missing record
+OLD00977,2025-08-21,River,9,Present,,,0,false,Missing record
+OLD01031,2025-08-21,River,11,Present,,,0,false,Missing record
+OLD01102,2025-08-21,River,10,Present,,,0,false,Missing record
+OLD01165,2025-08-21,River,9,Present,,,0,false,Missing record
+OLD01166,2025-08-21,River,10,Present,,,0,false,Missing record
+OLD00903,2025-08-22,River,11,Absent,Absent,EX,2,true,Matched
+OLD00926,2025-08-22,River,10,Tardy,,,0,false,Missing record
+OLD01062,2025-08-22,River,10,Present,,,0,false,Missing record
+OLD01080,2025-08-22,River,12,Tardy,,,0,false,Missing record
+OLD00961,2025-08-25,River,9,Present,,,0,false,Missing record
+OLD00964,2025-08-25,River,12,Present,,,0,false,Missing record
+OLD01029,2025-08-26,River,9,Present,,,0,false,Missing record
+OLD01054,2025-08-26,River,10,Tardy,,,0,false,Missing record
+OLD01074,2025-08-26,River,10,Present,,,0,false,Missing record
+OLD01100,2025-08-26,River,12,Present,,,0,false,Missing record
+OLD01155,2025-08-26,River,11,Present,,,0,false,Missing record
+OLD00925,2025-08-27,River,9,Present,,,0,false,Missing record
+OLD01032,2025-08-27,River,12,Tardy,,,0,false,Missing record
+OLD01034,2025-08-27,River,10,Present,,,0,false,Missing record
+OLD01050,2025-08-27,River,10,Present,,,0,false,Missing record
+OLD01099,2025-08-27,River,11,Present,,,0,false,Missing record
+OLD01117,2025-08-27,River,9,Present,,,0,false,Missing record
+OLD01152,2025-08-27,River,12,Absent,,,0,false,Missing record
+OLD00964,2025-08-28,River,12,Present,,,0,false,Missing record
+OLD01024,2025-08-28,River,12,Present,,,0,false,Missing record
+OLD01041,2025-08-28,River,9,Present,,,0,false,Missing record
+OLD01189,2025-08-28,River,9,Present,,,0,false,Missing record
+OLD00947,2025-08-29,River,11,Present,Present,P,2,true,Matched
+OLD01083,2025-08-29,River,11,Present,,,0,false,Missing record
+OLD01105,2025-08-29,River,9,Absent,,,0,false,Missing record
+OLD01122,2025-08-29,River,10,Present,,,0,false,Missing record
+OLD00926,2025-09-02,River,10,Present,,,0,false,Missing record
+OLD00927,2025-09-02,River,11,Present,,,0,false,Missing record
+OLD00995,2025-09-02,River,11,Present,,,0,false,Missing record
+OLD01051,2025-09-02,River,11,Present,Present,P,2,true,Matched
+OLD01075,2025-09-02,River,11,Present,,,0,false,Missing record
+OLD01124,2025-09-02,River,12,Present,,,0,false,Missing record
+OLD01136,2025-09-02,River,12,Tardy,,,0,false,Missing record
+OLD00901,2025-09-03,River,9,Present,,,0,false,Missing record
+OLD00942,2025-09-03,River,10,Present,Present,P,2,true,Matched
+OLD01049,2025-09-03,River,9,Present,,,0,false,Missing record
+OLD01069,2025-09-03,River,9,Tardy,,,0,false,Missing record
+OLD01084,2025-09-03,River,12,Present,Present,P,2,true,Matched
+OLD01145,2025-09-03,River,9,Present,,,0,false,Missing record
+OLD01151,2025-09-03,River,11,Present,,,0,false,Missing record
+OLD01163,2025-09-03,River,11,Present,,,0,false,Missing record
+OLD01030,2025-09-04,River,10,Present,,,0,false,Missing record
+OLD01109,2025-09-04,River,9,Absent,,,0,false,Missing record
+OLD01141,2025-09-04,River,9,Present,,,0,false,Missing record
+OLD01175,2025-09-04,River,11,Present,,,0,false,Missing record
+OLD00977,2025-09-05,River,9,Present,,,0,false,Missing record
+OLD00980,2025-09-05,River,12,Present,,,0,false,Missing record
+OLD01073,2025-09-05,River,9,Present,,,0,false,Missing record
+OLD01087,2025-09-05,River,11,Tardy,,,0,false,Missing record
+OLD01156,2025-09-05,River,12,Present,,,0,false,Missing record
+OLD00972,2025-09-08,River,12,Absent,,,0,false,Missing record
+OLD01023,2025-09-08,River,11,Present,Present,P,2,true,Matched
+OLD01027,2025-09-08,River,11,Absent,,,0,false,Missing record
+OLD01048,2025-09-08,River,12,Present,,,0,false,Missing record
+OLD01055,2025-09-08,River,11,Present,Present,P,2,true,Matched
+OLD01136,2025-09-09,River,12,Present,,,0,false,Missing record
+OLD01192,2025-09-09,River,12,Present,,,0,false,Missing record
+OLD00960,2025-09-10,River,12,Present,,,0,false,Missing record
+OLD00975,2025-09-10,River,11,Present,Present,P,2,true,Matched
+OLD00998,2025-09-10,River,10,Present,,,0,false,Missing record
+OLD01135,2025-09-10,River,11,Present,,,0,false,Missing record
+OLD01014,2025-09-11,River,10,Present,,,0,false,Missing record
+OLD01065,2025-09-11,River,9,Tardy,,,0,false,Missing record
+OLD00917,2025-09-12,River,9,Tardy,,,0,false,Missing record
+OLD00999,2025-09-12,River,11,Present,Present,P,2,true,Matched
+OLD01132,2025-09-12,River,12,Absent,,,0,false,Missing record
+OLD01134,2025-09-12,River,10,Present,,,0,false,Missing record
+OLD01148,2025-09-12,River,12,Present,,,0,false,Missing record
+OLD01030,2025-09-15,River,10,Present,Present,P,2,true,Matched
+OLD01105,2025-09-15,River,9,Present,,,0,false,Missing record
+OLD01176,2025-09-15,River,12,Present,,,0,false,Missing record
+OLD01185,2025-09-15,River,9,Present,,,0,false,Missing record
+OLD01197,2025-09-15,River,9,Present,,,0,false,Missing record
+OLD00906,2025-09-16,River,10,Present,Present,P,2,true,Matched
+OLD01152,2025-09-16,River,12,Present,,,0,false,Missing record
+OLD01174,2025-09-16,River,10,Present,,,0,false,Missing record
+OLD01183,2025-09-16,River,11,Present,,,0,false,Missing record
+OLD00955,2025-09-17,River,11,Present,,,0,false,Missing record
+OLD01032,2025-09-17,River,12,Present,,,0,false,Missing record
+OLD01035,2025-09-17,River,11,Present,,,0,false,Missing record
+OLD00911,2025-09-18,River,11,Present,,,0,false,Missing record
+OLD01085,2025-09-18,River,9,Present,,,0,false,Missing record
+OLD01141,2025-09-18,River,9,Present,,,0,false,Missing record
+OLD01143,2025-09-18,River,11,Present,,,0,false,Missing record
+OLD00985,2025-09-22,River,9,Present,Present,P,2,true,Matched
+OLD01031,2025-09-22,River,11,Present,,,0,false,Missing record
+OLD01108,2025-09-22,River,12,Present,,,0,false,Missing record
+OLD01139,2025-09-23,River,11,Present,,,0,false,Missing record
+OLD00936,2025-09-24,River,12,Present,,,0,false,Missing record
+OLD01069,2025-09-24,River,9,Present,Present,P,2,true,Matched
+OLD01176,2025-09-24,River,12,Present,,,0,false,Missing record
+OLD01019,2025-09-25,River,11,Present,,,0,false,Missing record
+OLD01199,2025-09-25,River,11,Present,,,0,false,Missing record
+OLD00932,2025-09-26,River,12,Present,,,0,false,Missing record
+OLD00979,2025-09-26,River,11,Present,,,0,false,Missing record
+OLD00983,2025-09-26,River,11,Absent,,,0,false,Missing record
+OLD01158,2025-09-26,River,10,Absent,,,0,false,Missing record
+OLD01178,2025-09-26,River,10,Present,,,0,false,Missing record
+OLD01182,2025-09-26,River,10,Present,,,0,false,Missing record
+OLD00927,2025-09-29,River,11,Present,,,0,false,Missing record
+OLD01153,2025-09-29,River,9,Present,,,0,false,Missing record
+OLD01169,2025-09-29,River,9,Present,,,0,false,Missing record
+OLD00970,2025-09-30,River,10,Present,,,0,false,Missing record
+OLD01043,2025-09-30,River,11,Present,,,0,false,Missing record
+OLD01153,2025-09-30,River,9,Present,,,0,false,Missing record
+OLD00989,2025-10-01,River,9,Present,,,0,false,Missing record
+OLD01001,2025-10-02,River,9,Present,,,0,false,Missing record
+OLD01013,2025-10-02,River,9,Present,,,0,false,Missing record
+OLD01032,2025-10-02,River,12,Absent,Absent,EX,2,true,Matched
+OLD01068,2025-10-02,River,12,Tardy,,,0,false,Missing record
+OLD00915,2025-10-03,River,11,Present,Present,P,2,true,Matched
+OLD00942,2025-10-03,River,10,Present,Present,P,2,true,Matched
+OLD00984,2025-10-03,River,12,Present,Present,P,2,true,Matched
+OLD01090,2025-10-03,River,10,Present,,,0,false,Missing record
+OLD01115,2025-10-03,River,11,Present,,,0,false,Missing record
+OLD01169,2025-10-03,River,9,Absent,,,0,false,Missing record
+OLD00908,2025-10-06,River,12,Present,,,0,false,Missing record
+OLD00962,2025-10-06,River,10,Present,,,0,false,Missing record
+OLD00965,2025-10-06,River,9,Present,,,0,false,Missing record
+OLD00968,2025-10-06,River,12,Present,Present,P,2,true,Matched
+OLD01163,2025-10-06,River,11,Present,,,0,false,Missing record
+OLD01186,2025-10-06,River,10,Present,,,0,false,Missing record
+OLD00916,2025-10-07,River,12,Present,,,0,false,Missing record
+OLD01035,2025-10-07,River,11,Present,,,0,false,Missing record
+OLD01078,2025-10-07,River,10,Present,,,0,false,Missing record
+OLD01110,2025-10-07,River,10,Present,,,0,false,Missing record
+OLD01151,2025-10-07,River,11,Absent,,,0,false,Missing record
+OLD00929,2025-10-08,River,9,Present,Present,P,2,true,Matched
+OLD00975,2025-10-08,River,11,Present,,,0,false,Missing record
+OLD01140,2025-10-08,River,12,Tardy,,,0,false,Missing record
+OLD00965,2025-10-09,River,9,Present,,,0,false,Missing record
+OLD01178,2025-10-09,River,10,Present,,,0,false,Missing record
+OLD00943,2025-10-10,River,11,Present,,,0,false,Missing record
+OLD00945,2025-10-10,River,9,Present,,,0,false,Missing record
+OLD00959,2025-10-10,River,11,Present,,,0,false,Missing record
+OLD00965,2025-10-10,River,9,Absent,,,0,false,Missing record
+OLD00977,2025-10-10,River,9,Present,Present,P,2,true,Matched
+OLD01061,2025-10-10,River,9,Present,,,0,false,Missing record
+OLD01129,2025-10-10,River,9,Present,,,0,false,Missing record
+OLD00933,2025-10-14,River,9,Present,Present,P,2,true,Matched
+OLD00955,2025-10-14,River,11,Present,Present,P,2,true,Matched
+OLD01005,2025-10-14,River,9,Present,,,0,false,Missing record
+OLD01012,2025-10-14,River,12,Present,,,0,false,Missing record
+OLD01050,2025-10-14,River,10,Present,,,0,false,Missing record
+OLD01110,2025-10-14,River,10,Present,,,0,false,Missing record
+OLD01153,2025-10-14,River,9,Present,,,0,false,Missing record
+OLD01190,2025-10-14,River,10,Present,Present,P,2,true,Matched
+OLD01198,2025-10-14,River,10,Present,Present,P,2,true,Matched
+OLD00979,2025-10-15,River,11,Present,,,0,false,Missing record
+OLD01125,2025-10-15,River,9,Present,,,0,false,Missing record
+OLD01154,2025-10-15,River,10,Present,,,0,false,Missing record
+OLD00930,2025-10-16,River,10,Present,Present,P,2,true,Matched
+OLD01102,2025-10-16,River,10,Present,,,0,false,Missing record
+OLD01131,2025-10-16,River,11,Present,,,0,false,Missing record
+OLD01161,2025-10-16,River,9,Present,,,0,false,Missing record
+OLD01163,2025-10-16,River,11,Present,,,0,false,Missing record
+OLD01090,2025-10-17,River,10,Present,,,0,false,Missing record
+OLD01096,2025-10-17,River,12,Absent,,,0,false,Missing record
+OLD01005,2025-10-21,River,9,Present,,,0,false,Missing record
+OLD01023,2025-10-21,River,11,Absent,,,0,false,Missing record
+OLD01029,2025-10-21,River,9,Absent,,,0,false,Missing record
+OLD01070,2025-10-21,River,10,Present,Present,P,2,true,Matched
+OLD01156,2025-10-21,River,12,Present,,,0,false,Missing record
+OLD01159,2025-10-21,River,11,Present,,,0,false,Missing record
+OLD01075,2025-10-22,River,11,Present,,,0,false,Missing record
+OLD01097,2025-10-22,River,9,Present,,,0,false,Missing record
+OLD01179,2025-10-22,River,11,Present,,,0,false,Missing record
+OLD01199,2025-10-22,River,11,Present,Present,P,2,true,Matched
+OLD00921,2025-10-23,River,9,Present,,,0,false,Missing record
+OLD01005,2025-10-23,River,9,Present,Present,P,2,true,Matched
+OLD00938,2025-10-24,River,10,Present,Present,P,2,true,Matched
+OLD00981,2025-10-24,River,9,Tardy,,,0,false,Missing record
+OLD01046,2025-10-24,River,10,Present,Present,P,2,true,Matched
+OLD01105,2025-10-24,River,9,Absent,,,0,false,Missing record
+OLD01146,2025-10-24,River,10,Present,,,0,false,Missing record
+OLD01189,2025-10-24,River,9,Present,,,0,false,Missing record
+OLD01072,2025-10-27,River,12,Present,,,0,false,Missing record
+OLD01088,2025-10-27,River,12,Present,,,0,false,Missing record
+OLD00920,2025-10-28,River,12,Present,,,0,false,Missing record
+OLD00959,2025-10-28,River,11,Present,,,0,false,Missing record
+OLD00963,2025-10-28,River,11,Present,,,0,false,Missing record
+OLD00989,2025-10-28,River,9,Present,,,0,false,Missing record
+OLD01062,2025-10-28,River,10,Present,,,0,false,Missing record
+OLD01079,2025-10-28,River,11,Present,Present,P,2,true,Matched
+OLD00964,2025-10-29,River,12,Present,,,0,false,Missing record
+OLD00967,2025-10-29,River,11,Present,,,0,false,Missing record
+OLD00982,2025-10-29,River,10,Absent,Absent,A,2,true,Matched
+OLD01004,2025-10-29,River,12,Present,Present,P,2,true,Matched
+OLD01164,2025-10-29,River,12,Present,Present,P,2,true,Matched
+OLD01183,2025-10-29,River,11,Present,,,0,false,Missing record
+OLD01188,2025-10-29,River,12,Present,,,0,false,Missing record
+OLD00909,2025-10-30,River,9,Tardy,,,0,false,Missing record
+OLD00916,2025-10-30,River,12,Present,,,0,false,Missing record
+OLD01037,2025-10-30,River,9,Present,Present,P,2,true,Matched
+OLD01061,2025-10-30,River,9,Present,,,0,false,Missing record
+OLD01110,2025-10-30,River,10,Tardy,,,0,false,Missing record
+OLD01198,2025-10-30,River,10,Present,Present,P,2,true,Matched
+OLD00929,2025-10-31,River,9,Present,Present,P,2,true,Matched
+OLD01183,2025-10-31,River,11,Present,,,0,false,Missing record
+OLD00992,2025-11-03,River,12,Tardy,,,0,false,Missing record
+OLD01003,2025-11-03,River,11,Present,Present,P,2,true,Matched
+OLD01173,2025-11-03,River,9,Tardy,,,0,false,Missing record
+OLD00939,2025-11-04,River,11,Present,,,0,false,Missing record
+OLD00966,2025-11-04,River,10,Present,,,0,false,Missing record
+OLD01028,2025-11-04,River,12,Present,,,0,false,Missing record
+OLD01034,2025-11-04,River,10,Present,Present,P,2,true,Matched
+OLD01052,2025-11-04,River,12,Tardy,,,0,false,Missing record
+OLD01087,2025-11-04,River,11,Present,,,0,false,Missing record
+OLD01161,2025-11-04,River,9,Present,,,0,false,Missing record
+OLD00924,2025-11-05,River,12,Present,,,0,false,Missing record
+OLD00979,2025-11-05,River,11,Present,,,0,false,Missing record
+OLD00988,2025-11-05,River,12,Present,Present,P,2,true,Matched
+OLD01127,2025-11-05,River,11,Present,,,0,false,Missing record
+OLD01160,2025-11-05,River,12,Present,,,0,false,Missing record
+OLD01192,2025-11-05,River,12,Present,,,0,false,Missing record
+OLD00904,2025-11-06,River,12,Present,,,0,false,Missing record
+OLD01047,2025-11-06,River,11,Present,,,0,false,Missing record
+OLD01122,2025-11-07,River,10,Present,Present,P,2,true,Matched
+OLD00955,2025-11-10,River,11,Present,,,0,false,Missing record
+OLD00975,2025-11-10,River,11,Present,,,0,false,Missing record
+OLD01114,2025-11-10,River,10,Present,,,0,false,Missing record
+OLD01117,2025-11-10,River,9,Present,,,0,false,Missing record
+OLD01172,2025-11-11,River,12,Present,,,0,false,Missing record
+OLD01184,2025-11-11,River,12,Present,,,0,false,Missing record
