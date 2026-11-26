@@ -40,7 +40,10 @@ function displayTable(columns, data, sortable = false) {
     const cell = make("th", undefined, unit === "text" ? "" : "num");
     cell.scope = "col";
     if (sortable) {
-      const button = make("button", title + (sort.index === index ? (sort.sign === 1 ? " ↑" : " ↓") : ""));
+      const button = make("button", title);
+      const indicator = make("span", sort.index === index ? (sort.sign === 1 ? "↑" : "↓") : "↕", "sort-indicator");
+      indicator.setAttribute("aria-hidden", "true");
+      button.append(indicator);
       button.type = "button";
       cell.setAttribute("aria-sort", sort.index === index ? (sort.sign === 1 ? "ascending" : "descending") : "none");
       button.addEventListener("click", () => {
@@ -135,17 +138,17 @@ function paintCanvas(shell, spec, colors) {
     const space = upper - lower;
     const left = spec.unit === "money" ? 54 : 41;
     const right = width - 12;
-    const top = 11, bottom = height - 27;
+    const top = 15, bottom = height - 29;
     const y = (value) => bottom - ((value - lower) / space) * (bottom - top);
     const center = (index) => left + (right-left) * ((index + 0.5) / spec.labels.length);
     const labelStride = Math.ceil(spec.labels.length / Math.max(3, Math.floor((right-left)/41)));
-    ctx.font = "11px Inter, Segoe UI, Arial, sans-serif";
+    ctx.font = '11px "Segoe UI", system-ui, sans-serif';
     for (let tick = 0; tick <= 4; tick++) {
       const value = lower + (space * tick / 4);
       const yPos = y(value);
-      ctx.strokeStyle = "#dce5ee";
+      ctx.strokeStyle = "#c7d6ef";
       ctx.beginPath(); ctx.moveTo(left, yPos); ctx.lineTo(right,yPos); ctx.stroke();
-      ctx.fillStyle = "#4d5c70";
+      ctx.fillStyle = "#435572";
       ctx.textAlign = "right";
       ctx.fillText(format(value, spec.unit, true),left-5,yPos+4);
     }
@@ -156,18 +159,21 @@ function paintCanvas(shell, spec, colors) {
     ctx.textAlign = "center";
     spec.labels.forEach((label,index) => {
       if (index % labelStride !== 0) return;
-      ctx.fillStyle = "#4d5c70";
+      ctx.fillStyle = "#435572";
       ctx.fillText(label,center(index),bottom+18);
     });
     const isLine = spec.kind === "line";
     const cell = (right-left) / spec.labels.length;
-    const barWidth = Math.min(26, 0.79 * cell / spec.series.length);
+    const barWidth = Math.min(28, 0.79 * cell / spec.series.length);
     targets = [];
     spec.series.forEach((item, part) => {
-      ctx.fillStyle = colors[part];
-      ctx.strokeStyle = colors[part];
+      const color = colors[part];
+      ctx.strokeStyle = color;
       if (isLine) {
-        ctx.beginPath(); ctx.lineWidth = 2.2;
+        ctx.beginPath();
+        ctx.lineWidth = 2.5;
+        ctx.lineJoin = "round";
+        ctx.lineCap = "round";
         let active = false;
         item.values.forEach((value,index) => {
           if (value == null) { active = false; return; }
@@ -181,9 +187,30 @@ function paintCanvas(shell, spec, colors) {
         if (value == null) return;
         const x = isLine ? center(index) : center(index) + (part-(spec.series.length-1)/2)*barWidth;
         if (isLine) {
-          ctx.beginPath(); ctx.arc(x,y(value),3.1,0,2*Math.PI); ctx.fill();
+          ctx.beginPath();
+          ctx.arc(x, y(value), 3.25, 0, 2 * Math.PI);
+          ctx.fillStyle = "#f7fbff";
+          ctx.fill();
+          ctx.lineWidth = 2;
+          ctx.stroke();
         } else {
-          ctx.fillRect(x-barWidth/2, Math.min(y(0),y(value)), Math.max(1,barWidth-1), Math.max(1,Math.abs(y(value)-y(0))));
+          const barTop = Math.min(y(0), y(value));
+          const barHeight = Math.max(1, Math.abs(y(value) - y(0)));
+          const barSize = Math.max(1, barWidth - 2);
+          const gradient = ctx.createLinearGradient(0, y(value), 0, y(0));
+          gradient.addColorStop(0, color);
+          gradient.addColorStop(1, color + "a8");
+          ctx.fillStyle = gradient;
+          if (typeof ctx.roundRect === "function") {
+            const corner = Math.min(3, barSize / 2, barHeight / 2);
+            ctx.beginPath();
+            ctx.roundRect(x - barSize / 2, barTop, barSize, barHeight, value >= 0
+              ? [corner, corner, 0, 0]
+              : [0, 0, corner, corner]);
+            ctx.fill();
+          } else {
+            ctx.fillRect(x - barSize / 2, barTop, barSize, barHeight);
+          }
         }
         targets.push({x,y:y(value),baseline:y(0),key:index,label:item.label,value});
       });
